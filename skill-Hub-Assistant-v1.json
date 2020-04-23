@@ -4,6 +4,15 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
+          "text": "Fantastic."
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
           "text": "You are wonderful"
         },
         {
@@ -34,7 +43,25 @@
           "text": "I like what you did there! :)"
         },
         {
-          "text": "I'm looking forward to working with you again! :)"
+          "text": "How cool is this?"
+        },
+        {
+          "text": "😃"
+        },
+        {
+          "text": "you are funny"
+        },
+        {
+          "text": "That's exactly what I needed."
+        },
+        {
+          "text": "Cool beans."
+        },
+        {
+          "text": "Perfection!"
+        },
+        {
+          "text": "Perfect"
         },
         {
           "text": "Can't believe you are that good"
@@ -56,43 +83,226 @@
         },
         {
           "text": "Appreciate all your help"
-        },
-        {
-          "text": "Fantastic."
-        },
-        {
-          "text": "Perfect"
-        },
-        {
-          "text": "Perfection!"
-        },
-        {
-          "text": "Cool beans."
-        },
-        {
-          "text": "That's exactly what I needed."
-        },
-        {
-          "text": "you are funny"
-        },
-        {
-          "text": "😃"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "You gave me exactly what I need!"
         }
       ],
       "description": "Express positive sentiment or gratitude."
     },
     {
-      "intent": "General_Security_Assurance",
+      "intent": "vmw_GENERAL_TICKET_GUIDE",
       "examples": [
         {
-          "text": "I'd like proof of a secure chat"
+          "text": "What happened to my tickets?"
         },
+        {
+          "text": "What happens after I create a ticket?"
+        },
+        {
+          "text": "What happens after I have ordered a device?"
+        },
+        {
+          "text": "What will happen after I create a ticket?"
+        }
+      ],
+      "description": "This intent captures questions from user related to how does the create ticket flow works."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Have I lost you?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "vmw_SYNC_DEVICE",
+      "examples": [
+        {
+          "text": "I cannot connect to wifi"
+        },
+        {
+          "text": "how do I get updated profiles?"
+        },
+        {
+          "text": "I am having problems with my managed device"
+        },
+        {
+          "text": "I need to sync my device"
+        },
+        {
+          "text": "My work phone is not working"
+        },
+        {
+          "text": "uem sync device"
+        },
+        {
+          "text": "sync device"
+        },
+        {
+          "text": "I want to update my device profile"
+        },
+        {
+          "text": "I have a problem accessing my email"
+        },
+        {
+          "text": "I want to sync my device"
+        }
+      ],
+      "description": "UEM sync device flow"
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "undo"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
         {
           "text": "Is this conversation secure?"
         },
@@ -118,10 +328,10 @@
           "text": "What safety measures are used to ensure that chat is secure?"
         },
         {
-          "text": "Why would I trust this chat?"
+          "text": "Will my conversation remain secured?"
         },
         {
-          "text": "Will my conversation remain secured?"
+          "text": "Why would I trust this chat?"
         },
         {
           "text": "How do I know this chat is not a scam?"
@@ -151,7 +361,7 @@
           "text": "How safe is my data?"
         },
         {
-          "text": "Is this a trusted chat site?"
+          "text": "I'd like proof of a secure chat"
         },
         {
           "text": "In what way can I tell if my plastic is safe?"
@@ -160,763 +370,253 @@
           "text": "Is my card info secure?"
         },
         {
-          "text": "Is my payment information secure?"
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
         },
         {
           "text": "Is there a reason to distrust this chat?"
         },
         {
-          "text": "How do I know if my card info is kept safe?"
+          "text": "Is my payment information secure?"
         }
       ],
       "description": "Express concerns about the security of the bot."
     },
     {
-      "intent": "Bot_Control_Change_Subject",
+      "intent": "Bot_Control_Clarification",
       "examples": [
         {
-          "text": "Another thing"
+          "text": "I don't understand"
         },
         {
-          "text": "A different matter"
+          "text": "Can you say that again please?"
         },
         {
-          "text": "Change topic"
+          "text": "What are you saying?"
         },
         {
-          "text": "Talk about something else"
+          "text": "my laptop has no problem"
         },
         {
-          "text": "Let us talk about something else"
+          "text": "I didn't catch that"
         },
         {
-          "text": "Chat about something else"
+          "text": "Explains"
         },
         {
-          "text": "Discuss something else"
+          "text": "What are you referring to?"
         },
         {
-          "text": "Let us change the topic"
+          "text": "What do you mean by that?"
         },
         {
-          "text": "I have one more question"
+          "text": "Come again?"
         },
         {
-          "text": "Here is another issue"
+          "text": "I did not quite understand what you gave me"
         },
         {
-          "text": "Help me with this other question"
+          "text": "I need more information"
         },
         {
-          "text": "Can we talk about something else?"
+          "text": "What do you mean?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "What are you talking about?"
         }
       ],
-      "description": "Change to a different topic."
+      "description": "Repeat or clarify last statement."
     },
     {
-      "intent": "vmw_FILE_GENERAL_TICKET",
+      "intent": "General_Connect_to_Agent",
       "examples": [
         {
-          "text": "Broken toilet"
+          "text": "Customer service representative please."
         },
         {
-          "text": "i am having trouble with my laptop"
+          "text": "Could you please transfer me to your master?"
         },
         {
-          "text": "enrollment failed"
+          "text": "Contact person"
         },
         {
-          "text": "how can I get access to payroll system"
+          "text": "Call agent"
         },
         {
-          "text": "i forgot my password"
+          "text": "Agent help"
         },
         {
-          "text": "laptop crashed"
+          "text": "Connect me to a live operator please."
         },
         {
-          "text": "laptop data lost"
+          "text": "Please assist me to get to an agent"
         },
         {
-          "text": "microsoft crashed"
+          "text": "Please connect me to a live agent"
         },
         {
-          "text": "outlook crashed"
+          "text": "Please let me talk to a human being."
         },
         {
-          "text": "google search not working"
+          "text": "Pls connect"
         },
         {
-          "text": "I am not able to connect to wi-fi"
+          "text": "Put me through to someone"
         },
         {
-          "text": "我想create个ticket"
+          "text": "Send me to an agent"
         },
         {
-          "text": "create a ticket"
+          "text": "Where is the closest agent?"
         },
         {
-          "text": "ticket"
+          "text": "Yes, take me to a real person"
         },
         {
-          "text": "I want to report an issue I'm having."
+          "text": "I want a manager"
         },
         {
-          "text": "Describe a problem"
+          "text": "I don't want to talk to a bot."
         },
         {
-          "text": "Start an incident case"
+          "text": "How can I skip the recorded menu and go straight to a live person?"
         },
         {
-          "text": "I don't know who knows this, but I need to ask a question."
+          "text": "Hi can you transfer me"
         },
         {
-          "text": "I have kinda a weird question."
+          "text": "Can I connect to an agent?"
         },
         {
-          "text": "Can I ask a question about something?"
+          "text": "I need to speak to a representative. How would I go about doing so?"
         },
         {
-          "text": "I need to get some help, but I don't know who to go to"
+          "text": "I want agent"
         },
         {
-          "text": "Open a ticket"
+          "text": "I want an agent to help me"
         },
         {
-          "text": "I need some help"
+          "text": "Operator please"
         },
         {
-          "text": "I have a question"
+          "text": "Need help from human"
         },
         {
-          "text": "File a ticket"
+          "text": "I want to talk to a person"
         },
         {
-          "text": "I need help filing a ticket"
+          "text": "I would like to speak to a human"
         },
         {
-          "text": "Can we get better snacks in the snack room?"
+          "text": "I would like to speak to someone"
         },
         {
-          "text": "Can we get a new coffee machine?"
+          "text": "Is there anyone there I can actually talk to for real?"
         },
         {
-          "text": "please create one ticket for me"
+          "text": "I don't want to talk to you"
         },
         {
-          "text": "create one ticket for me"
+          "text": "Can I speak to a human please?"
         },
         {
-          "text": "can I get my laptop replaced"
+          "text": "Can I speak to a live person?"
         },
         {
-          "text": "yes I WANT to create another ticket"
+          "text": "Can I speak to an advisor?"
         },
         {
-          "text": "Screen is borked."
+          "text": "Can I speak with somebody?"
         },
         {
-          "text": "I want to do a factory reset for my smartphone."
+          "text": "Can I talk to someone?"
         },
         {
-          "text": "My device keeps rebooting every hour."
+          "text": "Can you assist me to connect to an agent?"
         },
         {
-          "text": "The server under my desk stopped working over the weekend."
+          "text": "Can you connect me with a real person?"
         },
         {
-          "text": "My laptop makes strange noises when I've been running it for a while."
+          "text": "Do not want a robot?"
         },
         {
-          "text": "Can I get someone to help me with my browser problems"
-        },
-        {
-          "text": "My coworker has a problem with his laptop, so I'm filing this ticket on her behalf."
-        },
-        {
-          "text": "This stupid laptop is not working"
-        },
-        {
-          "text": "I need to update all of my software to corporate standards."
-        },
-        {
-          "text": "My ethernet cable is broken"
-        },
-        {
-          "text": "I need to replace my monitor."
-        },
-        {
-          "text": "My smartphone is broken"
-        },
-        {
-          "text": "Can't get into our main login page"
-        },
-        {
-          "text": "Single sign on isn't working"
-        },
-        {
-          "text": "I can't authenticate to our SSO"
-        },
-        {
-          "text": "My tablet is having certificate-related problems."
-        },
-        {
-          "text": "My phone is telling me there's an error"
-        },
-        {
-          "text": "My device is not working properly."
-        },
-        {
-          "text": "information technology issue"
-        },
-        {
-          "text": "IT ticket"
-        },
-        {
-          "text": "I have to open a support case for my cloud problem"
-        },
-        {
-          "text": "I need to file an IT ticket"
-        },
-        {
-          "text": "I need technical help."
-        },
-        {
-          "text": "I need tech support"
-        },
-        {
-          "text": "I have a technical issue that I cannot resolve"
-        },
-        {
-          "text": "I have an issue with my laptop"
-        },
-        {
-          "text": "I gotta open a support case for my outage."
-        },
-        {
-          "text": "I'd like to open a support ticket."
-        },
-        {
-          "text": "My coworker keeps kicking my chair."
-        },
-        {
-          "text": "I want to arrange a name change in my corporate records."
-        },
-        {
-          "text": "I want to file a complaint about diversity and inclusion efforts in this company."
-        },
-        {
-          "text": "Am I given leave to be a surrogate parent?"
-        },
-        {
-          "text": "What do I need to do to arrange for medical leave after a surgery?"
-        },
-        {
-          "text": "What are my parental leave options? Maternity, paternity, that sort of thing."
-        },
-        {
-          "text": "I want to arrange for a leave of absence."
-        },
-        {
-          "text": "I want to figure out my insurance coverage options."
-        },
-        {
-          "text": "I'm getting married."
-        },
-        {
-          "text": "My family has a qualifying condition to change our health insurance coverage."
-        },
-        {
-          "text": "I want to understand my dental and vision coverage."
-        },
-        {
-          "text": "I want to report an HR issue."
-        },
-        {
-          "text": "I'd like to learn about my benfits"
-        },
-        {
-          "text": "Ask a human resources question"
-        },
-        {
-          "text": "I'm going to adopt a child"
-        },
-        {
-          "text": "I have a problem with my coworker"
-        },
-        {
-          "text": "I wanna file an HR ticket"
-        },
-        {
-          "text": "I have an ethical concern"
-        },
-        {
-          "text": "I have an HR concern"
-        },
-        {
-          "text": "I want to sign up my minivan for electrical vehicle charging registration."
-        },
-        {
-          "text": "The solar panels above my EV charging station are too dirty to use"
-        },
-        {
-          "text": "Microwave in the kitchen doesn't work"
-        },
-        {
-          "text": "Water temperature and pressure are wrong for the pipe"
-        },
-        {
-          "text": "I want to have my pet with me in the office. What do I need to do?"
-        },
-        {
-          "text": "My dogs need registration to be brought on campus."
-        },
-        {
-          "text": "I need a doggy door for my cubicle."
-        },
-        {
-          "text": "We're out of spoons and forks and in the kitchen but have plenty of knives."
-        },
-        {
-          "text": "The coffee maker doesn't make good coffee."
-        },
-        {
-          "text": "I have a safety concern"
-        },
-        {
-          "text": "There's a strange noise coming from inside the walls."
-        },
-        {
-          "text": "I'm hearing a weird noise in the bathroom pipes when I flush"
-        },
-        {
-          "text": "The bulb above my seating area is flickering."
-        },
-        {
-          "text": "The building is too cold in the summer and too hot in the winter."
-        },
-        {
-          "text": "The light bulb in my desktop lamp went out."
-        },
-        {
-          "text": "The kitchen toaster oven is burning everything we put in it."
-        },
-        {
-          "text": "I'd like to arrange a scheduled escort to my car at night."
-        },
-        {
-          "text": "There's something wrong with my electrical outlets."
-        },
-        {
-          "text": "I want to convert my desk to a standing desk version."
-        },
-        {
-          "text": "My office chair is borked and I can't use it to go up and down."
-        },
-        {
-          "text": "AC is still too cold."
-        },
-        {
-          "text": "Adjust my ergonomic desk please"
-        },
-        {
-          "text": "Install a new television in my office."
-        },
-        {
-          "text": "Pipes are leaking above my desk."
-        },
-        {
-          "text": "The air conditioning in my office is too cold."
-        },
-        {
-          "text": "My curtains need to be adjusted."
-        },
-        {
-          "text": "Catering for a lunch meeting"
-        },
-        {
-          "text": "Spilled coffee on the carpet and need a cleaning."
-        },
-        {
-          "text": "Flooding in the upstairs bathroom"
-        },
-        {
-          "text": "My internet is down"
+          "text": "A real agent, please."
         }
       ],
-      "description": "File a support ticket without specific indications to its purpose"
-    },
-    {
-      "intent": "General_Human_or_Bot",
-      "examples": [
-        {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Are you even real?"
-        },
-        {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Is this a computer?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Am I chatting with a human?"
-        }
-      ],
-      "description": "Ask if speaking to a human or a bot."
-    },
-    {
-      "intent": "vmw_ABOUT_WS1",
-      "examples": [
-        {
-          "text": "What can I do on Intelligent Hub?"
-        },
-        {
-          "text": "I want to know more about intelligent hub"
-        },
-        {
-          "text": "WS1"
-        },
-        {
-          "text": "workspace1"
-        },
-        {
-          "text": "workspace one"
-        },
-        {
-          "text": "How can I launch an app?"
-        },
-        {
-          "text": "intelligent hub"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Bot_Control_Standby",
-      "examples": [
-        {
-          "text": "Out for a break"
-        },
-        {
-          "text": "Can you wait for me?"
-        },
-        {
-          "text": "Need a minute here"
-        },
-        {
-          "text": "In a moment"
-        },
-        {
-          "text": "Let me see"
-        },
-        {
-          "text": "Keep holding"
-        },
-        {
-          "text": "Give me a few minutes to get together"
-        },
-        {
-          "text": "Give me a moment"
-        },
-        {
-          "text": "Give me a second"
-        },
-        {
-          "text": "Hold on"
-        },
-        {
-          "text": "I want stop a moment"
-        },
-        {
-          "text": "I will be back"
-        },
-        {
-          "text": "I would like to put you on hold"
-        },
-        {
-          "text": "Just a sec"
-        },
-        {
-          "text": "Just hold on"
-        },
-        {
-          "text": "Wait"
-        },
-        {
-          "text": "Be patient with me"
-        },
-        {
-          "text": "Be back later"
-        },
-        {
-          "text": "Back again soon"
-        },
-        {
-          "text": "Can you give me a moment?"
-        }
-      ],
-      "description": "Indicate a delay in providing input to the bot."
-    },
-    {
-      "intent": "vmw_ORDER_NEW_DEVICE",
-      "examples": [
-        {
-          "text": "Mouse"
-        },
-        {
-          "text": "Order a device"
-        },
-        {
-          "text": "New mouse"
-        },
-        {
-          "text": "I would like a new device"
-        },
-        {
-          "text": "Order a new desktop"
-        },
-        {
-          "text": "Order a phone"
-        },
-        {
-          "text": "Order a tablet"
-        },
-        {
-          "text": "Order a new laptop"
-        },
-        {
-          "text": "I would like to submit a request to issue wireless mouse and keyboard."
-        },
-        {
-          "text": "Get a new computer, tablet, or smart phone from my employer."
-        },
-        {
-          "text": "I'd like to order a new device"
-        },
-        {
-          "text": "My laptop is getting old"
-        },
-        {
-          "text": "Where can I get a new device?"
-        },
-        {
-          "text": "Device"
-        },
-        {
-          "text": "Monitor"
-        },
-        {
-          "text": "Keyboard"
-        },
-        {
-          "text": "New keyboard"
-        }
-      ],
-      "description": "Order a new device"
-    },
-    {
-      "intent": "General_About_You",
-      "examples": [
-        {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "?"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "About you"
-        },
-        {
-          "text": "hub assistant"
-        },
-        {
-          "text": "can you walk me through the system?"
-        },
-        {
-          "text": "can you give me a tour?"
-        },
-        {
-          "text": "how do i talk with you"
-        },
-        {
-          "text": "user guide"
-        },
-        {
-          "text": "tell me how you work"
-        },
-        {
-          "text": "what is your user guide"
-        },
-        {
-          "text": "Learn More "
-        },
-        {
-          "text": "How can I configure you?"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Let us talk about you"
-        },
-        {
-          "text": "Introduce your self"
-        },
-        {
-          "text": "How old are you?"
-        },
-        {
-          "text": "How do you function?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "Can I use another language?"
-        },
-        {
-          "text": "Describe your self"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Do you have a name?"
-        },
-        {
-          "text": "Do you know who you are?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "What's your name?"
-        }
-      ],
-      "description": "Request generic personal attributes."
-    },
-    {
-      "intent": "Bot_Control_Start_Over",
-      "examples": [
-        {
-          "text": "Let us reopen this again."
-        },
-        {
-          "text": "I would like to start all over"
-        },
-        {
-          "text": "I want start from the beginning"
-        },
-        {
-          "text": "I need to reset."
-        },
-        {
-          "text": "How can I start over?"
-        },
-        {
-          "text": "Can we please start over?"
-        },
-        {
-          "text": "Begin over!"
-        },
-        {
-          "text": "can I ask you another question"
-        },
-        {
-          "text": "Can I ask another question"
-        },
-        {
-          "text": "I explicitly want to start this conversation over again."
-        },
-        {
-          "text": "Back to the top"
-        },
-        {
-          "text": "Back to the beginning"
-        },
-        {
-          "text": "Actually, let's start over"
-        },
-        {
-          "text": "Please reset"
-        },
-        {
-          "text": "Please start a new chat"
-        },
-        {
-          "text": "Please initiate from the beginning"
-        },
-        {
-          "text": "One more time from the beginning"
-        },
-        {
-          "text": "Let's pick this up from the top again."
-        },
-        {
-          "text": "Let's go back to square one"
-        },
-        {
-          "text": "Restart"
-        },
-        {
-          "text": "Start over"
-        },
-        {
-          "text": "We need a do-over"
-        },
-        {
-          "text": "We will need to begin again"
-        }
-      ],
-      "description": "Restart bot or current flow."
+      "description": "Request a human agent."
     },
     {
       "intent": "General_Ending",
       "examples": [
         {
+          "text": "Cya later"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "Hi we are heading back home now right"
+        },
+        {
+          "text": "Going now"
+        },
+        {
           "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Catch you later"
         },
         {
           "text": "Bye now"
         },
         {
           "text": "Bye bye"
-        },
-        {
-          "text": "Cya later"
         },
         {
           "text": "ttyl"
@@ -986,258 +686,195 @@
         },
         {
           "text": "Im done"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Hi we are heading back home now right"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I want to quit"
-        },
-        {
-          "text": "I'm done"
-        },
-        {
-          "text": "Im good thank you"
         }
       ],
       "description": "End the conversation."
     },
     {
-      "intent": "General_irrelevant_request",
+      "intent": "vmw_GENERAL_HR",
       "examples": [
         {
-          "text": "what is my phone number"
+          "text": "What's the number for HR?"
         },
         {
-          "text": "can you help me schedule a meeting"
+          "text": "Where can I find HR benefits information?"
         },
         {
-          "text": "what is trending"
+          "text": "Who can I email for HR questions?"
         },
         {
-          "text": "who is the president"
-        },
-        {
-          "text": "what is the date"
-        },
-        {
-          "text": "Don't create a ticket"
-        },
-        {
-          "text": "what is the temperature"
-        },
-        {
-          "text": "what is today's date"
-        },
-        {
-          "text": "when is the superbowl"
+          "text": "What's the HR help line number?"
         }
       ],
-      "description": "Counter examples to capture irrelevant user requests"
+      "description": "Generic questions for HR usually found on Source"
     },
     {
-      "intent": "Bot_Control_Unsure",
+      "intent": "General_Human_or_Bot",
       "examples": [
         {
-          "text": "my laptop is very good"
+          "text": "Are you a human or a bot?"
         },
         {
-          "text": "I got the best laptop in the world"
+          "text": "Are you human?"
         },
         {
-          "text": "I m not certain I get what you re saying"
+          "text": "Are you even real?"
         },
         {
-          "text": "No clue"
+          "text": "Am I talking to a Bot?"
         },
         {
-          "text": "No idea"
+          "text": "Am I talking to Watson?"
         },
         {
-          "text": "I have no idea what you are looking for"
+          "text": "Is this a computer?"
         },
         {
-          "text": "To be honest, I m really not sure"
+          "text": "Am I talking to a person or am I talking to an AI?"
         },
         {
-          "text": "I have no idea, actually"
+          "text": "Am I chatting with a human?"
         },
         {
-          "text": "I don t know what you want"
+          "text": "Are you a robot?"
         },
         {
-          "text": "I don t know what you need"
+          "text": "How can you prove you are a human?"
         },
         {
-          "text": "You got me"
+          "text": "Are you real?"
         },
         {
-          "text": "I m not sure what will make you happy"
-        },
-        {
-          "text": "I haven't got a clue"
-        },
-        {
-          "text": "I m not yet convinced"
+          "text": "Tell me, are you a human or no?"
         }
       ],
-      "description": "Indicate no definite answer to a question."
+      "description": "Ask if speaking to a human or a bot."
     },
     {
-      "intent": "vmw_GET_KEYWORD_SEARCH",
+      "intent": "Bot_Control_Start_Over",
       "examples": [
         {
-          "text": "learning and development"
+          "text": "Begin over!"
         },
         {
-          "text": "how do I advance my career?"
+          "text": "We will need to begin again"
         },
         {
-          "text": "are there any new trainings?"
+          "text": "I would like to start all over"
         },
         {
-          "text": "browse trainings"
+          "text": "I want start from the beginning"
         },
         {
-          "text": "what trainings are currently trending?"
+          "text": "I need to reset."
         },
         {
-          "text": "what trainings are available to me?"
+          "text": "How can I start over?"
         },
         {
-          "text": "trainings options"
+          "text": "Can we please start over?"
         },
         {
-          "text": "get linkedin options"
+          "text": "can I ask you another question"
         },
         {
-          "text": "trainings available for agile"
+          "text": "Can I ask another question"
         },
         {
-          "text": "top trainings for me"
+          "text": "I explicitly want to start this conversation over again."
         },
         {
-          "text": "search trainings"
+          "text": "Back to the top"
         },
         {
-          "text": "search training by skill"
+          "text": "Back to the beginning"
         },
         {
-          "text": "new trainings"
+          "text": "Actually, let's start over"
         },
         {
-          "text": "Linkedin learning"
+          "text": "Please reset"
         },
         {
-          "text": "i'd like to search a course"
+          "text": "Please start a new chat"
         },
         {
-          "text": "I want to see trainings available for product management"
+          "text": "Please initiate from the beginning"
         },
         {
-          "text": "how do I develop my career?"
+          "text": "One more time from the beginning"
         },
         {
-          "text": "where can I watch a training?"
+          "text": "Let's pick this up from the top again."
         },
         {
-          "text": "are there any learning courses that I can take?"
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
         }
       ],
-      "description": "Search for trainings available in LinkedIn Learning"
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Discuss something else"
+        }
+      ],
+      "description": "Change to a different topic."
     },
     {
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
           "text": "How are you today?"
         },
         {
           "text": "How are things going?"
-        },
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Good day"
-        },
-        {
-          "text": "You there?"
-        },
-        {
-          "text": "Good evening"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
-          "text": "Who is this?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": ";)"
-        },
-        {
-          "text": ":)"
         },
         {
           "text": "Hi there"
@@ -1252,9 +889,6 @@
           "text": "Hey there"
         },
         {
-          "text": "Hey there all"
-        },
-        {
           "text": "Hey how are you doing"
         },
         {
@@ -1264,7 +898,67 @@
           "text": "Heya"
         },
         {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": ":)"
+        },
+        {
+          "text": ";)"
+        },
+        {
+          "text": "You there?"
+        },
+        {
           "text": "Howdy"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
         },
         {
           "text": "Ok take me back"
@@ -1276,43 +970,205 @@
       "description": "Greet the bot."
     },
     {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "In a moment"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "vmw_ABOUT_WS1",
+      "examples": [
+        {
+          "text": "WS1"
+        },
+        {
+          "text": "I want to know more about intelligent hub"
+        },
+        {
+          "text": "intelligent hub"
+        },
+        {
+          "text": "What can I do on Intelligent Hub?"
+        },
+        {
+          "text": "How can I launch an app?"
+        },
+        {
+          "text": "workspace one"
+        },
+        {
+          "text": "workspace1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_irrelevant_request",
+      "examples": [
+        {
+          "text": "can you help me schedule a meeting"
+        },
+        {
+          "text": "what is trending"
+        },
+        {
+          "text": "who is the president"
+        },
+        {
+          "text": "what is the date"
+        },
+        {
+          "text": "what is today's date"
+        },
+        {
+          "text": "what is the temperature"
+        },
+        {
+          "text": "Don't create a ticket"
+        },
+        {
+          "text": "when is the superbowl"
+        },
+        {
+          "text": "what is my phone number"
+        }
+      ],
+      "description": "Counter examples to capture irrelevant user requests"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "Got it"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "Why are you stupid?"
-        },
-        {
-          "text": "Why are you so annoying?"
-        },
-        {
-          "text": "Stupid"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
           "text": "Robots are stupid"
-        },
-        {
-          "text": "just kidding"
         },
         {
           "text": "not cool"
@@ -1324,7 +1180,25 @@
           "text": "I hate you"
         },
         {
-          "text": "You're really irritating"
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
         },
         {
           "text": "Do not like you?"
@@ -1333,49 +1207,160 @@
           "text": "Robots are boring"
         },
         {
-          "text": "Quit annoying me"
+          "text": "You are on my nerves"
         },
         {
-          "text": "It is annoying"
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
         },
         {
           "text": "I hate this!"
         },
         {
-          "text": "You're too stupid"
+          "text": "just kidding"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
         }
       ],
       "description": "Express unfavorable feedback."
     },
     {
+      "intent": "vmw_REGISTER_NEW_DEVICE",
+      "examples": [
+        {
+          "text": "I want to register my new device"
+        }
+      ],
+      "description": "UEM register new device flow"
+    },
+    {
+      "intent": "vmw_GET_TICKET_STATUS",
+      "examples": [
+        {
+          "text": "I want to see a ticket"
+        },
+        {
+          "text": "Can I check my current tickets?"
+        },
+        {
+          "text": "Can I get an update on my request?"
+        },
+        {
+          "text": "can I see my private task PTSK0010001"
+        },
+        {
+          "text": "can you check GSTASK0010001"
+        },
+        {
+          "text": "Check status of ticket"
+        },
+        {
+          "text": "Follow On Task FOL0010001"
+        },
+        {
+          "text": "group approval GAPRV0010001"
+        },
+        {
+          "text": "I want to find a ticket"
+        },
+        {
+          "text": "I want to review a ticket"
+        },
+        {
+          "text": "Is PRB0040002 approved?"
+        },
+        {
+          "text": "KB Submission SUB0010001"
+        },
+        {
+          "text": "List all my tickets"
+        },
+        {
+          "text": "problem task PTASK0010001"
+        },
+        {
+          "text": "release phase PHASE0010001"
+        },
+        {
+          "text": "RTASK0010001 modify a ticket"
+        },
+        {
+          "text": "See all open PRs"
+        },
+        {
+          "text": "show me my tickets"
+        },
+        {
+          "text": "STAL0010001"
+        },
+        {
+          "text": "status update of my tickets"
+        },
+        {
+          "text": "status update of ticket"
+        },
+        {
+          "text": "STDCHG0010001"
+        },
+        {
+          "text": "ticket confirmation CHAT0010001"
+        },
+        {
+          "text": "ticket status"
+        },
+        {
+          "text": "view a ticket"
+        },
+        {
+          "text": "view my ticket"
+        },
+        {
+          "text": "view my tickets"
+        },
+        {
+          "text": "what is my incident task INCT0010001"
+        },
+        {
+          "text": "What is my ticket number"
+        },
+        {
+          "text": "What is the latest status of my open ticket"
+        },
+        {
+          "text": "what is the status of ticket abc11212121"
+        },
+        {
+          "text": "whats going on in my ticket ABCD12121212121"
+        },
+        {
+          "text": "show me the ticket"
+        }
+      ],
+      "description": "Check status of open ticket"
+    },
+    {
       "intent": "General_Agent_Capabilities",
       "examples": [
         {
-          "text": "I do not know what to ask"
-        },
-        {
-          "text": "How can you solve my problems?"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "Tell me something"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        },
-        {
-          "text": "Is there anything you can help me with?"
+          "text": "What are you able to understand?"
         },
         {
           "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
         },
         {
           "text": "How do I use you?"
@@ -1429,107 +1414,476 @@
           "text": "How can you help me?"
         },
         {
-          "text": "What are you able to understand?"
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
         }
       ],
       "description": "Request capabilities of the bot."
     },
     {
-      "intent": "Bot_Control_Confirm_Presence",
+      "intent": "vmw_GET_KEYWORD_SEARCH",
       "examples": [
         {
-          "text": "Is anybody home?"
+          "text": "new trainings"
         },
         {
-          "text": "Is anybody here?"
+          "text": "Linkedin learning"
         },
         {
-          "text": "I am still holding"
+          "text": "learning and development"
         },
         {
-          "text": "Are you on?"
+          "text": "i'd like to search a course"
         },
         {
-          "text": "Anyone there?"
+          "text": "I want to see trainings available for product management"
         },
         {
-          "text": "Are you leaving me?"
+          "text": "how do I develop my career?"
         },
         {
-          "text": "Speak to me if you are there."
+          "text": "where can I watch a training?"
         },
         {
-          "text": "Did you hear what I said?"
+          "text": "how do I advance my career?"
         },
         {
-          "text": "You around?"
+          "text": "are there any new trainings?"
         },
         {
-          "text": "Where'd you go?"
+          "text": "browse trainings"
         },
         {
-          "text": "Are you still around?"
+          "text": "are there any learning courses that I can take?"
         },
         {
-          "text": "Am I talking to someone?"
+          "text": "what trainings are currently trending?"
         },
         {
-          "text": "Have I lost you?"
+          "text": "what trainings are available to me?"
         },
         {
-          "text": "Are you still here with me?"
+          "text": "trainings options"
         },
         {
-          "text": "Did you go somewhere?"
+          "text": "get linkedin options"
+        },
+        {
+          "text": "trainings available for agile"
+        },
+        {
+          "text": "top trainings for me"
+        },
+        {
+          "text": "search trainings"
+        },
+        {
+          "text": "search training by skill"
         }
       ],
-      "description": "Ask the bot to indicate that it is available."
+      "description": "Search for trainings available in LinkedIn Learning"
+    },
+    {
+      "intent": "vmw_FILE_GENERAL_TICKET",
+      "examples": [
+        {
+          "text": "Can't get into our main login page"
+        },
+        {
+          "text": "IT ticket"
+        },
+        {
+          "text": "There's a strange noise coming from inside the walls."
+        },
+        {
+          "text": "I have a safety concern"
+        },
+        {
+          "text": "The coffee maker doesn't make good coffee."
+        },
+        {
+          "text": "We're out of spoons and forks and in the kitchen but have plenty of knives."
+        },
+        {
+          "text": "I need a doggy door for my cubicle."
+        },
+        {
+          "text": "My dogs need registration to be brought on campus."
+        },
+        {
+          "text": "I want to have my pet with me in the office. What do I need to do?"
+        },
+        {
+          "text": "Water temperature and pressure are wrong for the pipe"
+        },
+        {
+          "text": "Microwave in the kitchen doesn't work"
+        },
+        {
+          "text": "The solar panels above my EV charging station are too dirty to use"
+        },
+        {
+          "text": "I want to sign up my minivan for electrical vehicle charging registration."
+        },
+        {
+          "text": "Broken toilet"
+        },
+        {
+          "text": "I have an HR concern"
+        },
+        {
+          "text": "I have an ethical concern"
+        },
+        {
+          "text": "I wanna file an HR ticket"
+        },
+        {
+          "text": "I have a problem with my coworker"
+        },
+        {
+          "text": "I'm going to adopt a child"
+        },
+        {
+          "text": "Ask a human resources question"
+        },
+        {
+          "text": "I'd like to learn about my benfits"
+        },
+        {
+          "text": "I want to report an HR issue."
+        },
+        {
+          "text": "I want to understand my dental and vision coverage."
+        },
+        {
+          "text": "My family has a qualifying condition to change our health insurance coverage."
+        },
+        {
+          "text": "I'm getting married."
+        },
+        {
+          "text": "I want to figure out my insurance coverage options."
+        },
+        {
+          "text": "I want to arrange for a leave of absence."
+        },
+        {
+          "text": "What are my parental leave options? Maternity, paternity, that sort of thing."
+        },
+        {
+          "text": "What do I need to do to arrange for medical leave after a surgery?"
+        },
+        {
+          "text": "Am I given leave to be a surrogate parent?"
+        },
+        {
+          "text": "I want to file a complaint about diversity and inclusion efforts in this company."
+        },
+        {
+          "text": "I want to arrange a name change in my corporate records."
+        },
+        {
+          "text": "My coworker keeps kicking my chair."
+        },
+        {
+          "text": "I'd like to open a support ticket."
+        },
+        {
+          "text": "I gotta open a support case for my outage."
+        },
+        {
+          "text": "I have an issue with my laptop"
+        },
+        {
+          "text": "I have a technical issue that I cannot resolve"
+        },
+        {
+          "text": "I need tech support"
+        },
+        {
+          "text": "I need technical help."
+        },
+        {
+          "text": "I need to file an IT ticket"
+        },
+        {
+          "text": "I have to open a support case for my cloud problem"
+        },
+        {
+          "text": "information technology issue"
+        },
+        {
+          "text": "My device is not working properly."
+        },
+        {
+          "text": "My phone is telling me there's an error"
+        },
+        {
+          "text": "My tablet is having certificate-related problems."
+        },
+        {
+          "text": "I can't authenticate to our SSO"
+        },
+        {
+          "text": "Single sign on isn't working"
+        },
+        {
+          "text": "My smartphone is broken"
+        },
+        {
+          "text": "I need to replace my monitor."
+        },
+        {
+          "text": "My ethernet cable is broken"
+        },
+        {
+          "text": "I need to update all of my software to corporate standards."
+        },
+        {
+          "text": "This stupid laptop is not working"
+        },
+        {
+          "text": "My coworker has a problem with his laptop, so I'm filing this ticket on her behalf."
+        },
+        {
+          "text": "Can I get someone to help me with my browser problems"
+        },
+        {
+          "text": "My laptop makes strange noises when I've been running it for a while."
+        },
+        {
+          "text": "The server under my desk stopped working over the weekend."
+        },
+        {
+          "text": "My device keeps rebooting every hour."
+        },
+        {
+          "text": "I want to do a factory reset for my smartphone."
+        },
+        {
+          "text": "Screen is borked."
+        },
+        {
+          "text": "yes I WANT to create another ticket"
+        },
+        {
+          "text": "can I get my laptop replaced"
+        },
+        {
+          "text": "create one ticket for me"
+        },
+        {
+          "text": "please create one ticket for me"
+        },
+        {
+          "text": "Can we get a new coffee machine?"
+        },
+        {
+          "text": "Can we get better snacks in the snack room?"
+        },
+        {
+          "text": "I need help filing a ticket"
+        },
+        {
+          "text": "File a ticket"
+        },
+        {
+          "text": "I have a question"
+        },
+        {
+          "text": "I need some help"
+        },
+        {
+          "text": "Open a ticket"
+        },
+        {
+          "text": "I need to get some help, but I don't know who to go to"
+        },
+        {
+          "text": "Can I ask a question about something?"
+        },
+        {
+          "text": "I have kinda a weird question."
+        },
+        {
+          "text": "I don't know who knows this, but I need to ask a question."
+        },
+        {
+          "text": "Start an incident case"
+        },
+        {
+          "text": "Describe a problem"
+        },
+        {
+          "text": "I want to report an issue I'm having."
+        },
+        {
+          "text": "ticket"
+        },
+        {
+          "text": "create a ticket"
+        },
+        {
+          "text": "我想create个ticket"
+        },
+        {
+          "text": "I am not able to connect to wi-fi"
+        },
+        {
+          "text": "google search not working"
+        },
+        {
+          "text": "outlook crashed"
+        },
+        {
+          "text": "microsoft crashed"
+        },
+        {
+          "text": "laptop data lost"
+        },
+        {
+          "text": "laptop crashed"
+        },
+        {
+          "text": "i forgot my password"
+        },
+        {
+          "text": "how can I get access to payroll system"
+        },
+        {
+          "text": "enrollment failed"
+        },
+        {
+          "text": "i am having trouble with my laptop"
+        },
+        {
+          "text": "My internet is down"
+        },
+        {
+          "text": "Flooding in the upstairs bathroom"
+        },
+        {
+          "text": "Spilled coffee on the carpet and need a cleaning."
+        },
+        {
+          "text": "Catering for a lunch meeting"
+        },
+        {
+          "text": "My curtains need to be adjusted."
+        },
+        {
+          "text": "The air conditioning in my office is too cold."
+        },
+        {
+          "text": "Pipes are leaking above my desk."
+        },
+        {
+          "text": "Install a new television in my office."
+        },
+        {
+          "text": "Adjust my ergonomic desk please"
+        },
+        {
+          "text": "AC is still too cold."
+        },
+        {
+          "text": "My office chair is borked and I can't use it to go up and down."
+        },
+        {
+          "text": "I want to convert my desk to a standing desk version."
+        },
+        {
+          "text": "There's something wrong with my electrical outlets."
+        },
+        {
+          "text": "I'd like to arrange a scheduled escort to my car at night."
+        },
+        {
+          "text": "The kitchen toaster oven is burning everything we put in it."
+        },
+        {
+          "text": "The light bulb in my desktop lamp went out."
+        },
+        {
+          "text": "The building is too cold in the summer and too hot in the winter."
+        },
+        {
+          "text": "The bulb above my seating area is flickering."
+        },
+        {
+          "text": "I'm hearing a weird noise in the bathroom pipes when I flush"
+        }
+      ],
+      "description": "File a support ticket without specific indications to its purpose"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I got the best laptop in the world"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "my laptop is very good"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
     },
     {
       "intent": "Bot_Control_Reject_Response",
       "examples": [
-        {
-          "text": "That answer is incorrect"
-        },
-        {
-          "text": "nope"
-        },
-        {
-          "text": "I don't need that"
-        },
-        {
-          "text": "It is not what I was looking for"
-        },
-        {
-          "text": "No I'm fine thanks"
-        },
-        {
-          "text": "I disagree"
-        },
-        {
-          "text": "I do not think it is the answer?"
-        },
-        {
-          "text": "I wasn't looking for that"
-        },
-        {
-          "text": "I don't want that"
-        },
-        {
-          "text": "It is not what I want"
-        },
-        {
-          "text": "You didn't understand me"
-        },
-        {
-          "text": "You did not understand what I said"
-        },
-        {
-          "text": "You did not understand what I asked"
-        },
-        {
-          "text": "Wrong response"
-        },
         {
           "text": "You're misunderstanding me"
         },
@@ -1556,494 +1910,203 @@
         },
         {
           "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "I disagree"
         }
       ],
       "description": "Indicate the bot's response does not address a question."
     },
     {
-      "intent": "General_Connect_to_Agent",
+      "intent": "vmw_ORDER_NEW_DEVICE",
       "examples": [
         {
-          "text": "Customer service representative please."
+          "text": "Order a new laptop"
         },
         {
-          "text": "A real agent, please."
+          "text": "I'd like to order a new device"
         },
         {
-          "text": "Can you connect me with a real person?"
+          "text": "Get a new computer, tablet, or smart phone from my employer."
         },
         {
-          "text": "Can you assist me to connect to an agent?"
+          "text": "I would like to submit a request to issue wireless mouse and keyboard."
         },
         {
-          "text": "Can I talk to someone?"
+          "text": "Order a tablet"
         },
         {
-          "text": "Can I speak with somebody?"
+          "text": "Order a phone"
         },
         {
-          "text": "Can I speak to an advisor?"
+          "text": "Order a new desktop"
         },
         {
-          "text": "Can I speak to a live person?"
+          "text": "I would like a new device"
         },
         {
-          "text": "Can I speak to a human please?"
+          "text": "New mouse"
         },
         {
-          "text": "I don't want to talk to you"
+          "text": "Order a device"
         },
         {
-          "text": "Is there anyone there I can actually talk to for real?"
+          "text": "New keyboard"
         },
         {
-          "text": "I would like to speak to someone"
+          "text": "Mouse"
         },
         {
-          "text": "I would like to speak to a human"
+          "text": "Monitor"
         },
         {
-          "text": "I want to talk to a person"
+          "text": "Keyboard"
         },
         {
-          "text": "I want an agent to help me"
+          "text": "My laptop is getting old"
         },
         {
-          "text": "I want agent"
+          "text": "Where can I get a new device?"
         },
         {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Need help from human"
+          "text": "Device"
         }
       ],
-      "description": "Request a human agent."
+      "description": "Order a new device"
     },
     {
-      "intent": "vmw_GENERAL_TICKET_GUIDE",
+      "intent": "General_About_You",
       "examples": [
         {
-          "text": "What happens after I have ordered a device?"
+          "text": "Why are you here?"
         },
         {
-          "text": "What will happen after I create a ticket?"
+          "text": "What's your name?"
         },
         {
-          "text": "What happens after I create a ticket?"
+          "text": "What should I know about you?"
         },
         {
-          "text": "What happened to my tickets?"
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "user guide"
+        },
+        {
+          "text": "what is your user guide"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "tell me how you work"
+        },
+        {
+          "text": "hub assistant"
+        },
+        {
+          "text": "can you walk me through the system?"
+        },
+        {
+          "text": "can you give me a tour?"
+        },
+        {
+          "text": "how do i talk with you"
+        },
+        {
+          "text": "?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Learn More "
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Do you have a name?"
         }
       ],
-      "description": "This intent captures questions from user related to how does the create ticket flow works."
-    },
-    {
-      "intent": "vmw_GET_TICKET_STATUS",
-      "examples": [
-        {
-          "text": "Check status of ticket"
-        },
-        {
-          "text": "can you check GSTASK0010001"
-        },
-        {
-          "text": "can I see my private task PTSK0010001"
-        },
-        {
-          "text": "Can I get an update on my request?"
-        },
-        {
-          "text": "Can I check my current tickets?"
-        },
-        {
-          "text": "I want to review a ticket"
-        },
-        {
-          "text": "I want to find a ticket"
-        },
-        {
-          "text": "group approval GAPRV0010001"
-        },
-        {
-          "text": "Follow On Task FOL0010001"
-        },
-        {
-          "text": "show me the ticket"
-        },
-        {
-          "text": "whats going on in my ticket ABCD12121212121"
-        },
-        {
-          "text": "what is the status of ticket abc11212121"
-        },
-        {
-          "text": "What is the latest status of my open ticket"
-        },
-        {
-          "text": "What is my ticket number"
-        },
-        {
-          "text": "what is my incident task INCT0010001"
-        },
-        {
-          "text": "view my tickets"
-        },
-        {
-          "text": "view my ticket"
-        },
-        {
-          "text": "view a ticket"
-        },
-        {
-          "text": "ticket status"
-        },
-        {
-          "text": "ticket confirmation CHAT0010001"
-        },
-        {
-          "text": "STDCHG0010001"
-        },
-        {
-          "text": "status update of ticket"
-        },
-        {
-          "text": "status update of my tickets"
-        },
-        {
-          "text": "STAL0010001"
-        },
-        {
-          "text": "show me my tickets"
-        },
-        {
-          "text": "See all open PRs"
-        },
-        {
-          "text": "RTASK0010001 modify a ticket"
-        },
-        {
-          "text": "release phase PHASE0010001"
-        },
-        {
-          "text": "problem task PTASK0010001"
-        },
-        {
-          "text": "List all my tickets"
-        },
-        {
-          "text": "KB Submission SUB0010001"
-        },
-        {
-          "text": "Is PRB0040002 approved?"
-        },
-        {
-          "text": "I want to see a ticket"
-        }
-      ],
-      "description": "Check status of open ticket"
-    },
-    {
-      "intent": "Bot_Control_Clarification",
-      "examples": [
-        {
-          "text": "I didn't understand that properly"
-        },
-        {
-          "text": "I didn't quite understand what you said"
-        },
-        {
-          "text": "I did not quite understand what you gave me"
-        },
-        {
-          "text": "I don't understand"
-        },
-        {
-          "text": "I need more information"
-        },
-        {
-          "text": "Come again?"
-        },
-        {
-          "text": "Can you say that again please?"
-        },
-        {
-          "text": "What are you saying?"
-        },
-        {
-          "text": "What are you talking about?"
-        },
-        {
-          "text": "my laptop has no problem"
-        },
-        {
-          "text": "I didn't catch that"
-        },
-        {
-          "text": "Explains"
-        },
-        {
-          "text": "What are you referring to?"
-        },
-        {
-          "text": "What do you mean by that?"
-        },
-        {
-          "text": "What do you mean?"
-        },
-        {
-          "text": "Let's try to say that again more clearly, shall we?"
-        },
-        {
-          "text": "I don't understand what you're saying"
-        },
-        {
-          "text": "I don't get it"
-        }
-      ],
-      "description": "Repeat or clarify last statement."
-    },
-    {
-      "intent": "Bot_Control_Ignore_Undo",
-      "examples": [
-        {
-          "text": "Let us redo that again!"
-        },
-        {
-          "text": "Hold on! I think I want to do it differently."
-        },
-        {
-          "text": "Wait! Let's back up few steps and do that again"
-        },
-        {
-          "text": "It's not what I mean"
-        },
-        {
-          "text": "I didn't mean to do that actually, let's go back"
-        },
-        {
-          "text": "Never mind"
-        },
-        {
-          "text": "Never"
-        },
-        {
-          "text": "Not yet"
-        },
-        {
-          "text": "Nothing"
-        },
-        {
-          "text": "Actually, I take that back"
-        },
-        {
-          "text": "undo"
-        },
-        {
-          "text": "I change my mind."
-        },
-        {
-          "text": "Cancel"
-        },
-        {
-          "text": "Ignore this"
-        },
-        {
-          "text": "I did not mean that?"
-        }
-      ],
-      "description": "Ask the bot to take one step back."
-    },
-    {
-      "intent": "Bot_Control_Approve_Response",
-      "examples": [
-        {
-          "text": "Sweet"
-        },
-        {
-          "text": "Yeah, that's it!"
-        },
-        {
-          "text": "For sure!"
-        },
-        {
-          "text": "Great"
-        },
-        {
-          "text": "I agree"
-        },
-        {
-          "text": "I like that"
-        },
-        {
-          "text": "That's exactly what I want"
-        },
-        {
-          "text": "Got it"
-        },
-        {
-          "text": "This is alright"
-        },
-        {
-          "text": "Very well. Let's do it."
-        },
-        {
-          "text": "Indeed!"
-        },
-        {
-          "text": "Yes"
-        },
-        {
-          "text": "You read my mind"
-        },
-        {
-          "text": "Affirmative. That's what I'm looking for."
-        },
-        {
-          "text": "All right"
-        },
-        {
-          "text": "Correct"
-        },
-        {
-          "text": "That is what I need"
-        },
-        {
-          "text": "That is the proper response."
-        },
-        {
-          "text": "That is right"
-        },
-        {
-          "text": "That is precisely what I was looking for"
-        },
-        {
-          "text": "Sure thing!"
-        }
-      ],
-      "description": "Acknowledge that the response satisfies a question."
-    },
-    {
-      "intent": "General_Jokes",
-      "examples": [
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
-          "text": "Do you like fun?"
-        },
-        {
-          "text": "I want a joke"
-        },
-        {
-          "text": "I am getting bored"
-        },
-        {
-          "text": "Do you like humor?"
-        },
-        {
-          "text": "Do you have humor?"
-        },
-        {
-          "text": "I'm bored"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "What is your favorite joke?"
-        },
-        {
-          "text": "Do you have a joke?"
-        }
-      ],
-      "description": "Request a joke."
+      "description": "Request generic personal attributes."
     }
   ],
   "entities": [
     {
-      "entity": "sys-person",
+      "entity": "sys-time",
       "values": []
     },
     {
@@ -2051,7 +2114,7 @@
       "values": []
     },
     {
-      "entity": "sys-time",
+      "entity": "sys-person",
       "values": []
     }
   ],
@@ -2069,6 +2132,32 @@
     }
   ],
   "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, how can I help you?"
+              },
+              {
+                "text": "Sure, what can I help you with?"
+              },
+              {
+                "text": "Sure thing, what can I do for you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1562198812287",
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "response_3_1576024906209",
+      "previous_sibling": "response_1_1571185906951"
+    },
     {
       "type": "response_condition",
       "title": "response_1_1571185906951",
@@ -2095,32 +2184,6 @@
       "conditions": "$mobileFlowsEnabled == false",
       "dialog_node": "response_1_1571185906951",
       "previous_sibling": "response_6_1563410784983"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ok, how can I help you?"
-              },
-              {
-                "text": "Sure, what can I help you with?"
-              },
-              {
-                "text": "Sure thing, what can I do for you?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_9_1562198812287",
-      "conditions": "#Bot_Control_Approve_Response",
-      "dialog_node": "response_3_1576024906209",
-      "previous_sibling": "response_1_1571185906951"
     },
     {
       "type": "response_condition",
@@ -2170,6 +2233,14 @@
                 }
               },
               {
+                "label": "Sync device",
+                "value": {
+                  "input": {
+                    "text": "Sync device"
+                  }
+                }
+              },
+              {
                 "label": "Search trainings",
                 "value": {
                   "input": {
@@ -2186,6 +2257,24 @@
       "parent": "node_9_1562198812287",
       "conditions": "$mobileFlowsEnabled == true",
       "dialog_node": "response_6_1563410784983"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1571776048771",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1571776048773",
+      "previous_sibling": "handler_6_1571776048773"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1571776048771",
+      "context": {
+        "mobileFlowsEnabled": "$mobileFlowsEnabled"
+      },
+      "conditions": "$mobileFlowsEnabled",
+      "event_name": "input",
+      "dialog_node": "handler_6_1571776048773"
     },
     {
       "type": "response_condition",
@@ -2256,613 +2345,18 @@
       "dialog_node": "response_3_1571699644659"
     },
     {
-      "type": "response_condition",
-      "title": "response_4_1571270094143",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "You can learn more in this FAQ: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/workspace-one/vmware-workspace-one-intelligent-hub-faq.pdf "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Or, visit our website: https://www.vmware.com/products/workspace-one.html"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_8_1571189345531",
-      "conditions": "#Bot_Control_Approve_Response",
-      "dialog_node": "response_4_1571270094143",
-      "previous_sibling": "slot_5_1571190683567"
-    },
-    {
-      "type": "slot",
-      "parent": "node_8_1571189345531",
-      "dialog_node": "slot_5_1571190683567"
-    },
-    {
-      "type": "standard",
-      "title": "No",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ok. Have a great day!"
-              },
-              {
-                "text": "Ok. Goodbye!"
-              },
-              {
-                "text": "Cool. See you next time!"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_1_1571189404292",
-      "conditions": "#Bot_Control_Reject_Response",
-      "dialog_node": "node_3_1571271114496",
-      "previous_sibling": "node_6_1571271057898"
-    },
-    {
-      "type": "standard",
-      "title": "Yes",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "What can I help you with? "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1571189404292",
-      "conditions": "#Bot_Control_Approve_Response",
-      "dialog_node": "node_6_1571271057898"
-    },
-    {
-      "type": "response_condition",
-      "title": "response_5_1571697487589",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hi $firstName! I am your Hub Assistant. How can I help you today?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_6_1563205422552",
-      "conditions": "$mobileFlowsEnabled ==  false",
-      "dialog_node": "response_5_1571697487589",
-      "previous_sibling": "response_6_1571696697608"
-    },
-    {
-      "type": "response_condition",
-      "title": "response_6_1571696697608",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hi $firstName, I am your Hub Assistant. I am here to help you with your employee needs."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "So, what can I help you with today? "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "Create a ticket",
-                "value": {
-                  "input": {
-                    "text": "Create a ticket"
-                  }
-                }
-              },
-              {
-                "label": "View tickets",
-                "value": {
-                  "input": {
-                    "text": "View tickets"
-                  }
-                }
-              },
-              {
-                "label": "Order a device",
-                "value": {
-                  "input": {
-                    "text": "Order a device"
-                  }
-                }
-              },
-              {
-                "label": "Search trainings",
-                "value": {
-                  "input": {
-                    "text": "Search trainings"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_6_1563205422552",
-      "context": {
-        "buttonType": "launcher"
-      },
-      "conditions": "$mobileFlowsEnabled == true",
-      "dialog_node": "response_6_1571696697608",
-      "previous_sibling": "slot_9_1582571200660"
-    },
-    {
-      "type": "slot",
-      "parent": "node_6_1563205422552",
-      "dialog_node": "slot_9_1582571200660",
-      "previous_sibling": "slot_4_1571776048771"
-    },
-    {
-      "type": "slot",
-      "parent": "node_6_1563205422552",
-      "variable": "$mobileFlowsEnabled",
-      "dialog_node": "slot_4_1571776048771"
-    },
-    {
-      "type": "response_condition",
-      "title": "response_6_1570580168862",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sorry, I don't understand. "
-              },
-              {
-                "text": "Sorry, can we try again?"
-              },
-              {
-                "text": "Sorry, can you rephrase your question? "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "Anything else",
-      "disabled": true,
-      "conditions": "",
-      "dialog_node": "response_6_1570580168862"
-    },
-    {
-      "type": "standard",
-      "title": "Greetings",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hi $firstName, how can I help you today? "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "metadata": {},
-      "conditions": "#General_Greetings",
-      "dialog_node": "node_1_1550692081946",
-      "previous_sibling": "node_9_1562198812287"
-    },
-    {
-      "type": "frame",
-      "title": "Start Over",
-      "parent": "node_9_1563561254524",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#Bot_Control_Start_Over || #Bot_Control_Approve_Response",
-      "dialog_node": "node_9_1562198812287",
-      "digress_out": "allow_all",
-      "previous_sibling": "node_6_1563205422552"
-    },
-    {
-      "type": "standard",
-      "title": "Negative feedback from users",
-      "parent": "node_9_1563561254524",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#General_Negative_Feedback || #Bot_Control_Reject_Response",
-      "dialog_node": "node_9_1570592664943",
-      "previous_sibling": "node_6_1570590282460"
-    },
-    {
-      "type": "standard",
-      "title": "General Capabilities",
-      "parent": "node_9_1563561254524",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#General_About_You ||       #General_Human_or_Bot ||     #General_Security_Assurance ||    #General_Agent_Capabilities",
-      "dialog_node": "node_9_1570225393143",
-      "previous_sibling": "node_7_1564094664821"
-    },
-    {
-      "type": "standard",
-      "title": "Goodbye",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Glad I could help! Goodbye."
-              },
-              {
-                "text": "Thank you for your time. Goodbye!"
-              },
-              {
-                "text": "Take care!"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "context": {},
-      "conditions": "#General_Ending",
-      "dialog_node": "node_5_1564092026035",
-      "previous_sibling": "node_1_1550692081946"
-    },
-    {
-      "type": "standard",
-      "title": "Thank you",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "It's my pleasure! Have a nice day!"
-              },
-              {
-                "text": "It's nice of you to say so!"
-              },
-              {
-                "text": "You're quite welcome."
-              },
-              {
-                "text": "I do what I can. Thank you."
-              },
-              {
-                "text": "Thank you! Glad I could help. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "conditions": "#General_Positive_Feedback",
-      "dialog_node": "node_7_1564094664821",
-      "previous_sibling": "node_5_1564092026035"
-    },
-    {
-      "type": "folder",
-      "title": "Intelligent Hub FAQ",
-      "parent": "node_9_1563561254524",
-      "dialog_node": "node_9_1570762895521",
-      "previous_sibling": "node_9_1570592664943"
-    },
-    {
-      "type": "standard",
-      "title": "User is confused",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sorry, let's start over. Will the following options help you?"
-              },
-              {
-                "text": "Hmm, shall we try again. See if any of the following options can help you today."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "",
-            "options": [
-              {
-                "label": "Create a ticket",
-                "value": {
-                  "input": {
-                    "text": "Create a ticket"
-                  }
-                }
-              },
-              {
-                "label": "View tickets",
-                "value": {
-                  "input": {
-                    "text": "View tickets"
-                  }
-                }
-              },
-              {
-                "label": "Order device",
-                "value": {
-                  "input": {
-                    "text": "Order device"
-                  }
-                }
-              },
-              {
-                "label": "Search Trainings",
-                "value": {
-                  "input": {
-                    "text": "Search Trainings"
-                  }
-                }
-              }
-            ],
-            "description": "",
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "conditions": "#Bot_Control_Unsure ||  #Bot_Control_Clarification",
-      "dialog_node": "node_1_1570488097893",
-      "previous_sibling": "node_1_1570225827447"
-    },
-    {
-      "type": "standard",
-      "title": "Irrelevant Question ",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Maybe you can find a great resource online to help you answer \"<? input.text ?>\". I am here to help you with your IT needs. Is there something I can help you with today?"
-              },
-              {
-                "text": "Oh, I am here to help you with you IT needs, but I bet you can find an answer for \"<? input.text ?>\" online. Is there something I can help you with today?"
-              },
-              {
-                "text": "I am sure you can find your answer for \"<? input.text ?>\" online. I am designed to help you with your IT needs such as ordering a device or filing a ticket. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "context": {},
-      "conditions": "#General_irrelevant_request",
-      "dialog_node": "node_6_1570590282460",
-      "previous_sibling": "node_1_1570488097893"
-    },
-    {
-      "type": "standard",
-      "title": "Connect to agent",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sorry, I'm not able to connect you with a live agent right now. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_9_1563561254524",
-      "conditions": "#General_Connect_to_Agent",
-      "dialog_node": "node_1_1570225827447",
-      "previous_sibling": "node_9_1570225393143"
-    },
-    {
-      "type": "frame",
-      "title": "New User Starting Point",
-      "parent": "node_9_1563561254524",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "conversation_start ||               welcome",
-      "dialog_node": "node_6_1563205422552"
-    },
-    {
-      "type": "slot",
-      "parent": "node_4_1570230305388",
-      "dialog_node": "slot_3_1571776649793",
-      "previous_sibling": "handler_2_1571776657132"
-    },
-    {
-      "type": "response_condition",
-      "title": "response_3_1571776649243",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Order a device is currently not available. Please come back later. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_4_1570230305388",
-      "disabled": true,
-      "dialog_node": "response_3_1571776649243",
-      "previous_sibling": "slot_3_1571776649793"
-    },
-    {
       "type": "event_handler",
       "output": {},
-      "parent": "node_4_1570230305388",
-      "context": {
-        "test": "test"
-      },
-      "event_name": "generic",
-      "dialog_node": "handler_2_1571776657132"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_3_1571776649793",
+      "parent": "slot_9_1582571200660",
       "event_name": "focus",
-      "dialog_node": "handler_3_1571776649802",
-      "previous_sibling": "handler_9_1571776649802"
+      "dialog_node": "handler_3_1582571200662",
+      "previous_sibling": "handler_8_1582571200662"
     },
     {
       "type": "event_handler",
-      "parent": "slot_3_1571776649793",
+      "parent": "slot_9_1582571200660",
       "event_name": "input",
-      "dialog_node": "handler_9_1571776649802"
-    },
-    {
-      "type": "standard",
-      "title": "No",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Alright. Is there anything else that I can help you with?"
-              },
-              {
-                "text": "I am glad that helps. Do you have any other questions? "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
-      },
-      "parent": "node_10_1570667764332",
-      "conditions": "#Bot_Control_Reject_Response",
-      "dialog_node": "node_1_1571189404292",
-      "previous_sibling": "node_8_1571189345531"
-    },
-    {
-      "type": "response_condition",
-      "title": "response_2_1571185470125",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "The Intelligent Hub app is your single destination that gives you access to your organization's apps, people search and corporate resources."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "Do you have other questions related to Intelligent Hub?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_10_1570667764332",
-      "conditions": "#vmw_ABOUT_WS1",
-      "dialog_node": "response_2_1571185470125",
-      "previous_sibling": "node_1_1571189404292"
-    },
-    {
-      "type": "frame",
-      "title": "Hub FAQ",
-      "parent": "node_10_1570667764332",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#Bot_Control_Approve_Response",
-      "dialog_node": "node_8_1571189345531"
-    },
-    {
-      "type": "standard",
-      "title": "Order a device",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Order a device is currently not available but it's coming soon! "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_2_1565285400966",
-      "metadata": {
-        "_customization": {
-          "mcr": false
-        }
-      },
-      "conditions": "#vmw_ORDER_NEW_DEVICE",
-      "dialog_node": "node_4_1570230305388"
+      "dialog_node": "handler_8_1582571200662"
     },
     {
       "type": "response_condition",
@@ -2930,35 +2424,6 @@
       "dialog_node": "response_2_1572627088251"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1571190683567",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1571190683569",
-      "previous_sibling": "handler_10_1571190683569"
-    },
-    {
-      "type": "event_handler",
-      "parent": "slot_5_1571190683567",
-      "context": {},
-      "event_name": "input",
-      "dialog_node": "handler_10_1571190683569"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_9_1582571200660",
-      "event_name": "focus",
-      "dialog_node": "handler_3_1582571200662",
-      "previous_sibling": "handler_8_1582571200662"
-    },
-    {
-      "type": "event_handler",
-      "parent": "slot_9_1582571200660",
-      "event_name": "input",
-      "dialog_node": "handler_8_1582571200662"
-    },
-    {
       "type": "standard",
       "title": "Search training by skill",
       "output": {
@@ -2999,14 +2464,20 @@
       "dialog_node": "response_7_1571698537641"
     },
     {
-      "type": "standard",
-      "title": "Create a Ticket User Guide",
+      "type": "slot",
+      "parent": "node_4_1570230305388",
+      "dialog_node": "slot_3_1571776649793",
+      "previous_sibling": "handler_2_1571776657132"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_3_1571776649243",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "After you've successfully created a ticket, I will send you back your ticket number, which you can click on to check the status or order details. "
+                "text": "Order a device is currently not available. Please come back later. "
               }
             ],
             "response_type": "text",
@@ -3014,45 +2485,416 @@
           }
         ]
       },
-      "parent": "node_9_1570762895521",
-      "conditions": "#vmw_GENERAL_TICKET_GUIDE",
-      "dialog_node": "node_10_1570578842069",
-      "previous_sibling": "node_10_1570667764332"
+      "parent": "node_4_1570230305388",
+      "disabled": true,
+      "dialog_node": "response_3_1571776649243",
+      "previous_sibling": "slot_3_1571776649793"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_4_1570230305388",
+      "context": {
+        "test": "test"
+      },
+      "event_name": "generic",
+      "dialog_node": "handler_2_1571776657132"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1571776649793",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1571776649802",
+      "previous_sibling": "handler_9_1571776649802"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1571776649793",
+      "event_name": "input",
+      "dialog_node": "handler_9_1571776649802"
+    },
+    {
+      "type": "folder",
+      "title": "Device Management",
+      "parent": "node_6_1563560924751",
+      "dialog_node": "node_5_1584033624195",
+      "previous_sibling": "node_2_1565285400966"
+    },
+    {
+      "type": "folder",
+      "title": "Learning and Development",
+      "parent": "node_6_1563560924751",
+      "dialog_node": "node_4_1581708198534",
+      "previous_sibling": "node_5_1584033624195"
+    },
+    {
+      "type": "folder",
+      "title": "Device Acquisition",
+      "parent": "node_6_1563560924751",
+      "dialog_node": "node_2_1565285400966",
+      "previous_sibling": "node_7_1563561279624"
+    },
+    {
+      "type": "folder",
+      "title": "Incident Management",
+      "parent": "node_6_1563560924751",
+      "conditions": "",
+      "dialog_node": "node_7_1563561279624",
+      "previous_sibling": "node_9_1563561254524"
+    },
+    {
+      "type": "folder",
+      "title": "General Conversation Options",
+      "parent": "node_6_1563560924751",
+      "dialog_node": "node_9_1563561254524"
+    },
+    {
+      "type": "standard",
+      "title": "Order a device",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Order a device is currently not available but it's coming soon! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1565285400966",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#vmw_ORDER_NEW_DEVICE",
+      "dialog_node": "node_4_1570230305388"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Have a great day!"
+              },
+              {
+                "text": "Ok. Goodbye!"
+              },
+              {
+                "text": "Cool. See you next time!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1571189404292",
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_3_1571271114496",
+      "previous_sibling": "node_6_1571271057898"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What can I help you with? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1571189404292",
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_6_1571271057898"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1571190683567",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1571190683569",
+      "previous_sibling": "handler_10_1571190683569"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1571190683567",
+      "context": {},
+      "event_name": "input",
+      "dialog_node": "handler_10_1571190683569"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1563205422552",
+      "dialog_node": "slot_9_1582571200660",
+      "previous_sibling": "slot_4_1571776048771"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1571696697608",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $firstName, I am your Hub Assistant. I am here to help you with your employee needs."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "So, what can I help you with today? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Create a ticket",
+                "value": {
+                  "input": {
+                    "text": "Create a ticket"
+                  }
+                }
+              },
+              {
+                "label": "View tickets",
+                "value": {
+                  "input": {
+                    "text": "View tickets"
+                  }
+                }
+              },
+              {
+                "label": "Order a device",
+                "value": {
+                  "input": {
+                    "text": "Order a device"
+                  }
+                }
+              },
+              {
+                "label": "Sync my device",
+                "value": {
+                  "input": {
+                    "text": "Sync my device"
+                  }
+                }
+              },
+              {
+                "label": "Search trainings",
+                "value": {
+                  "input": {
+                    "text": "Search trainings"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1563205422552",
+      "context": {
+        "buttonType": "launcher"
+      },
+      "conditions": "$mobileFlowsEnabled == true",
+      "dialog_node": "response_6_1571696697608",
+      "previous_sibling": "slot_9_1582571200660"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_5_1571697487589",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $firstName! I am your Hub Assistant. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1563205422552",
+      "conditions": "$mobileFlowsEnabled ==  false",
+      "dialog_node": "response_5_1571697487589",
+      "previous_sibling": "response_6_1571696697608"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1563205422552",
+      "variable": "$mobileFlowsEnabled",
+      "dialog_node": "slot_4_1571776048771"
+    },
+    {
+      "type": "standard",
+      "title": "Sync device",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sync device is currently not available. Please try again later. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1584033624195",
+      "conditions": "#vmw_SYNC_DEVICE",
+      "dialog_node": "node_5_1584033663248"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_6_1570580168862",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I don't understand. "
+              },
+              {
+                "text": "Sorry, can we try again?"
+              },
+              {
+                "text": "Sorry, can you rephrase your question? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_6_1570580168862"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_2_1571185470125",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Intelligent Hub app is your single destination that gives you access to your organization's apps, people search and corporate resources."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Do you have other questions related to Intelligent Hub?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1570667764332",
+      "conditions": "#vmw_ABOUT_WS1",
+      "dialog_node": "response_2_1571185470125",
+      "previous_sibling": "node_1_1571189404292"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright. Is there anything else that I can help you with?"
+              },
+              {
+                "text": "I am glad that helps. Do you have any other questions? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1570667764332",
+      "conditions": "#Bot_Control_Reject_Response",
+      "dialog_node": "node_1_1571189404292",
+      "previous_sibling": "node_8_1571189345531"
     },
     {
       "type": "frame",
-      "title": "About Intelligence Hub",
-      "parent": "node_9_1570762895521",
+      "title": "Hub FAQ",
+      "parent": "node_10_1570667764332",
       "metadata": {
         "_customization": {
           "mcr": true
         }
       },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_8_1571189345531"
-      },
-      "conditions": "#vmw_ABOUT_WS1",
-      "dialog_node": "node_10_1570667764332"
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "node_8_1571189345531"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1571776048771",
-      "event_name": "focus",
-      "dialog_node": "handler_8_1571776048773",
-      "previous_sibling": "handler_6_1571776048773"
+      "type": "frame",
+      "title": "Check Ticket Status",
+      "parent": "node_7_1563561279624",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#vmw_GET_TICKET_STATUS",
+      "user_label": "Check for Ticket Status",
+      "dialog_node": "node_9_1568840510949",
+      "previous_sibling": "node_3_1568840438525"
     },
     {
-      "type": "event_handler",
-      "parent": "slot_4_1571776048771",
-      "context": {
-        "mobileFlowsEnabled": "$mobileFlowsEnabled"
+      "type": "standard",
+      "title": "File a ticket",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Create a ticket is currently not available. Please try again later. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
       },
-      "conditions": "$mobileFlowsEnabled",
-      "event_name": "input",
-      "dialog_node": "handler_6_1571776048773"
+      "parent": "node_7_1563561279624",
+      "conditions": "#vmw_FILE_GENERAL_TICKET",
+      "user_label": "Create a ticket",
+      "dialog_node": "node_3_1568840438525"
     },
     {
       "type": "response_condition",
@@ -3092,7 +2934,7 @@
                 "label": "View ticket",
                 "value": {
                   "input": {
-                    "text": "View tickets"
+                    "text": "View ticket"
                   }
                 }
               },
@@ -3111,9 +2953,16 @@
                     "text": "Search trainings"
                   }
                 }
+              },
+              {
+                "label": "Sync device",
+                "value": {
+                  "input": {
+                    "text": "Sync device"
+                  }
+                }
               }
             ],
-            "description": "",
             "response_type": "option"
           }
         ]
@@ -3187,56 +3036,235 @@
       "dialog_node": "node_5_1571699623883"
     },
     {
-      "type": "folder",
-      "title": "Incident Management",
-      "parent": "node_6_1563560924751",
-      "conditions": "",
-      "dialog_node": "node_7_1563561279624",
-      "previous_sibling": "node_9_1563561254524"
-    },
-    {
-      "type": "folder",
-      "title": "Learning and Development",
-      "parent": "node_6_1563560924751",
-      "dialog_node": "node_4_1581708198534",
-      "previous_sibling": "node_2_1565285400966"
-    },
-    {
-      "type": "folder",
-      "title": "Device Acquisition",
-      "parent": "node_6_1563560924751",
-      "dialog_node": "node_2_1565285400966",
-      "previous_sibling": "node_7_1563561279624"
-    },
-    {
-      "type": "folder",
-      "title": "General Conversation Options",
-      "parent": "node_6_1563560924751",
-      "dialog_node": "node_9_1563561254524"
-    },
-    {
-      "type": "frame",
-      "title": "Check Ticket Status",
-      "parent": "node_7_1563561279624",
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
-      },
-      "conditions": "#vmw_GET_TICKET_STATUS",
-      "user_label": "Check for Ticket Status",
-      "dialog_node": "node_9_1568840510949",
-      "previous_sibling": "node_3_1568840438525"
-    },
-    {
       "type": "standard",
-      "title": "File a ticket",
+      "title": "Greetings",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Create a ticket is currently not available. Please try again later. "
+                "text": "Hi $firstName, how can I help you today? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1563561254524",
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_1_1550692081946",
+      "previous_sibling": "node_9_1562198812287"
+    },
+    {
+      "type": "folder",
+      "title": "Intelligent Hub FAQ",
+      "parent": "node_9_1563561254524",
+      "dialog_node": "node_9_1570762895521",
+      "previous_sibling": "node_9_1570592664943"
+    },
+    {
+      "type": "standard",
+      "title": "User is confused",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, let's start over. Will the following options help you?"
+              },
+              {
+                "text": "Hmm, shall we try again. See if any of the following options can help you today."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Create a ticket",
+                "value": {
+                  "input": {
+                    "text": "Create a ticket"
+                  }
+                }
+              },
+              {
+                "label": "View tickets",
+                "value": {
+                  "input": {
+                    "text": "View tickets"
+                  }
+                }
+              },
+              {
+                "label": "Order device",
+                "value": {
+                  "input": {
+                    "text": "Order device"
+                  }
+                }
+              },
+              {
+                "label": "Sync device",
+                "value": {
+                  "input": {
+                    "text": "Sync device"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1563561254524",
+      "conditions": "#Bot_Control_Unsure ||  #Bot_Control_Clarification",
+      "dialog_node": "node_1_1570488097893",
+      "previous_sibling": "node_1_1570225827447"
+    },
+    {
+      "type": "standard",
+      "title": "Irrelevant Question ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Maybe you can find a great resource online to help you answer \"<? input.text ?>\". I am here to help you with your IT and general employee needs. Is there something I can help you with today?"
+              },
+              {
+                "text": "Oh, I am here to help you with your IT and general employee needs, but I bet you can find an answer for \"<? input.text ?>\" online. Is there something I can help you with today?"
+              },
+              {
+                "text": "I am sure you can find your answer for \"<? input.text ?>\" online. I am designed to help you with your IT and general employee needs such as ordering a device or filing a ticket. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1563561254524",
+      "context": {},
+      "conditions": "#General_irrelevant_request",
+      "dialog_node": "node_6_1570590282460",
+      "previous_sibling": "node_1_1570488097893"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could help! Goodbye."
+              },
+              {
+                "text": "Thank you for your time. Goodbye!"
+              },
+              {
+                "text": "Take care!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1563561254524",
+      "context": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_5_1564092026035",
+      "previous_sibling": "node_1_1550692081946"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It's my pleasure! Have a nice day!"
+              },
+              {
+                "text": "It's nice of you to say so!"
+              },
+              {
+                "text": "You're quite welcome."
+              },
+              {
+                "text": "I do what I can. Thank you."
+              },
+              {
+                "text": "Thank you! Glad I could help. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1563561254524",
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_7_1564094664821",
+      "previous_sibling": "node_5_1564092026035"
+    },
+    {
+      "type": "frame",
+      "title": "Start Over",
+      "parent": "node_9_1563561254524",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Bot_Control_Start_Over || #Bot_Control_Approve_Response",
+      "dialog_node": "node_9_1562198812287",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1563205422552"
+    },
+    {
+      "type": "standard",
+      "title": "Negative feedback from users",
+      "parent": "node_9_1563561254524",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Negative_Feedback || #Bot_Control_Reject_Response",
+      "dialog_node": "node_9_1570592664943",
+      "previous_sibling": "node_6_1570590282460"
+    },
+    {
+      "type": "standard",
+      "title": "General Capabilities",
+      "parent": "node_9_1563561254524",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_About_You ||       #General_Human_or_Bot ||     #General_Security_Assurance ||    #General_Agent_Capabilities",
+      "dialog_node": "node_9_1570225393143",
+      "previous_sibling": "node_7_1564094664821"
+    },
+    {
+      "type": "standard",
+      "title": "Connect to agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I'm not able to connect you with a live agent right now. "
               }
             ],
             "response_type": "text",
@@ -3244,10 +3272,95 @@
           }
         ]
       },
-      "parent": "node_7_1563561279624",
-      "conditions": "#vmw_FILE_GENERAL_TICKET",
-      "user_label": "Create a ticket",
-      "dialog_node": "node_3_1568840438525"
+      "parent": "node_9_1563561254524",
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_1_1570225827447",
+      "previous_sibling": "node_9_1570225393143"
+    },
+    {
+      "type": "frame",
+      "title": "New User Starting Point",
+      "parent": "node_9_1563561254524",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "conversation_start ||               welcome",
+      "dialog_node": "node_6_1563205422552"
+    },
+    {
+      "type": "standard",
+      "title": "Create a Ticket User Guide",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "After you've successfully created a ticket, I will send you back your ticket number, which you can click on to check the status or order details. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1570762895521",
+      "conditions": "#vmw_GENERAL_TICKET_GUIDE",
+      "dialog_node": "node_10_1570578842069",
+      "previous_sibling": "node_10_1570667764332"
+    },
+    {
+      "type": "frame",
+      "title": "About Intelligence Hub",
+      "parent": "node_9_1570762895521",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1571189345531"
+      },
+      "conditions": "#vmw_ABOUT_WS1",
+      "dialog_node": "node_10_1570667764332"
+    },
+    {
+      "type": "response_condition",
+      "title": "response_4_1571270094143",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can learn more in this FAQ: https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/products/workspace-one/vmware-workspace-one-intelligent-hub-faq.pdf "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Or, visit our website: https://www.vmware.com/products/workspace-one.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1571189345531",
+      "conditions": "#Bot_Control_Approve_Response",
+      "dialog_node": "response_4_1571270094143",
+      "previous_sibling": "slot_5_1571190683567"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1571189345531",
+      "dialog_node": "slot_5_1571190683567"
     },
     {
       "type": "standard",
@@ -3378,7 +3491,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Hub Assistant v2",
+  "name": "Hub Assistant v2.1",
   "language": "en",
-  "description": "Create ticket, view tickets, order device, and search trainings"
+  "description": "Create ticket, view tickets, order device, search trainings, sync device"
 }
