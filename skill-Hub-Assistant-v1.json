@@ -4,7 +4,49 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
+          "text": "Appreciate all your help"
+        },
+        {
+          "text": "😃"
+        },
+        {
+          "text": "you are funny"
+        },
+        {
+          "text": "That's exactly what I needed."
+        },
+        {
+          "text": "Cool beans."
+        },
+        {
+          "text": "Perfection!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
           "text": "Fantastic."
+        },
+        {
+          "text": "Perfect"
         },
         {
           "text": "I'm looking forward to working with you again! :)"
@@ -41,48 +83,6 @@
         },
         {
           "text": "I like what you did there! :)"
-        },
-        {
-          "text": "How cool is this?"
-        },
-        {
-          "text": "😃"
-        },
-        {
-          "text": "you are funny"
-        },
-        {
-          "text": "That's exactly what I needed."
-        },
-        {
-          "text": "Cool beans."
-        },
-        {
-          "text": "Perfection!"
-        },
-        {
-          "text": "Perfect"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "You've been so helpful :)"
-        },
-        {
-          "text": "You're a genius!"
-        },
-        {
-          "text": "You the man"
-        },
-        {
-          "text": "This is great"
-        },
-        {
-          "text": "Appreciate all your help"
         }
       ],
       "description": "Express positive sentiment or gratitude."
@@ -91,16 +91,16 @@
       "intent": "vmw_GENERAL_TICKET_GUIDE",
       "examples": [
         {
-          "text": "What happened to my tickets?"
-        },
-        {
-          "text": "What happens after I create a ticket?"
+          "text": "What will happen after I create a ticket?"
         },
         {
           "text": "What happens after I have ordered a device?"
         },
         {
-          "text": "What will happen after I create a ticket?"
+          "text": "What happens after I create a ticket?"
+        },
+        {
+          "text": "What happened to my tickets?"
         }
       ],
       "description": "This intent captures questions from user related to how does the create ticket flow works."
@@ -109,25 +109,10 @@
       "intent": "Bot_Control_Confirm_Presence",
       "examples": [
         {
-          "text": "Are you still here with me?"
+          "text": "Anyone there?"
         },
         {
           "text": "Did you go somewhere?"
-        },
-        {
-          "text": "Is anybody home?"
-        },
-        {
-          "text": "Is anybody here?"
-        },
-        {
-          "text": "I am still holding"
-        },
-        {
-          "text": "Are you on?"
-        },
-        {
-          "text": "Anyone there?"
         },
         {
           "text": "Are you leaving me?"
@@ -142,16 +127,31 @@
           "text": "Where'd you go?"
         },
         {
-          "text": "You around?"
-        },
-        {
           "text": "Are you still around?"
         },
         {
           "text": "Am I talking to someone?"
         },
         {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
           "text": "Have I lost you?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "You around?"
         }
       ],
       "description": "Ask the bot to indicate that it is available."
@@ -160,7 +160,7 @@
       "intent": "vmw_SYNC_DEVICE",
       "examples": [
         {
-          "text": "I cannot connect to wifi"
+          "text": "I want to sync my device"
         },
         {
           "text": "how do I get updated profiles?"
@@ -169,25 +169,22 @@
           "text": "I am having problems with my managed device"
         },
         {
-          "text": "I need to sync my device"
-        },
-        {
           "text": "My work phone is not working"
         },
         {
-          "text": "uem sync device"
-        },
-        {
-          "text": "sync device"
+          "text": "I need to sync my device"
         },
         {
           "text": "I want to update my device profile"
         },
         {
-          "text": "I have a problem accessing my email"
+          "text": "sync device"
         },
         {
-          "text": "I want to sync my device"
+          "text": "uem sync device"
+        },
+        {
+          "text": "I have a problem accessing my email"
         }
       ],
       "description": "UEM sync device flow"
@@ -247,55 +244,55 @@
       "intent": "General_Jokes",
       "examples": [
         {
-          "text": "Do you have a joke?"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
           "text": "Do you like fun?"
         },
         {
           "text": "I want a joke"
         },
         {
-          "text": "Do you like humor?"
+          "text": "What do you do for fun?"
         },
         {
-          "text": "Do you have humor?"
+          "text": "Can you tell me a joke?"
         },
         {
-          "text": "I am getting bored"
+          "text": "Can you tell a joke?"
         },
         {
-          "text": "I'm bored"
+          "text": "Are there jokes?"
         },
         {
-          "text": "One more joke"
+          "text": "Another joke"
         },
         {
-          "text": "Surprise me with something hilarious"
+          "text": "Do you have a joke?"
         },
         {
-          "text": "Tell me a joke"
+          "text": "What is your favorite joke?"
         },
         {
           "text": "Tell me something funny"
         },
         {
-          "text": "What is your favorite joke?"
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
         }
       ],
       "description": "Request a joke."
@@ -304,22 +301,10 @@
       "intent": "General_Security_Assurance",
       "examples": [
         {
-          "text": "Is this conversation secure?"
+          "text": "I'd like proof of a secure chat"
         },
         {
-          "text": "Is this an official chat?"
-        },
-        {
-          "text": "Precautions hackers?"
-        },
-        {
-          "text": "Protection hacks?"
-        },
-        {
-          "text": "Secure conversation?"
-        },
-        {
-          "text": "What guards do you have in place to protect your customer's data?"
+          "text": "In what way can I tell if my plastic is safe?"
         },
         {
           "text": "What makes this chat trustworthy?"
@@ -328,10 +313,25 @@
           "text": "What safety measures are used to ensure that chat is secure?"
         },
         {
+          "text": "Why would I trust this chat?"
+        },
+        {
           "text": "Will my conversation remain secured?"
         },
         {
-          "text": "Why would I trust this chat?"
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
         },
         {
           "text": "How do I know this chat is not a scam?"
@@ -361,25 +361,22 @@
           "text": "How safe is my data?"
         },
         {
-          "text": "I'd like proof of a secure chat"
+          "text": "Is this conversation secure?"
         },
         {
-          "text": "In what way can I tell if my plastic is safe?"
+          "text": "Is this an official chat?"
         },
         {
-          "text": "Is my card info secure?"
+          "text": "Precautions hackers?"
         },
         {
-          "text": "Is this a trusted chat site?"
+          "text": "Protection hacks?"
         },
         {
-          "text": "How do I know if my card info is kept safe?"
+          "text": "Secure conversation?"
         },
         {
-          "text": "Is there a reason to distrust this chat?"
-        },
-        {
-          "text": "Is my payment information secure?"
+          "text": "What guards do you have in place to protect your customer's data?"
         }
       ],
       "description": "Express concerns about the security of the bot."
@@ -388,13 +385,10 @@
       "intent": "Bot_Control_Clarification",
       "examples": [
         {
-          "text": "I don't understand"
-        },
-        {
-          "text": "Can you say that again please?"
-        },
-        {
           "text": "What are you saying?"
+        },
+        {
+          "text": "What are you talking about?"
         },
         {
           "text": "my laptop has no problem"
@@ -412,34 +406,37 @@
           "text": "What do you mean by that?"
         },
         {
-          "text": "Come again?"
-        },
-        {
-          "text": "I did not quite understand what you gave me"
-        },
-        {
-          "text": "I need more information"
-        },
-        {
           "text": "What do you mean?"
-        },
-        {
-          "text": "Let's try to say that again more clearly, shall we?"
-        },
-        {
-          "text": "I didn't quite understand what you said"
-        },
-        {
-          "text": "I didn't understand that properly"
-        },
-        {
-          "text": "I don't get it"
         },
         {
           "text": "I don't understand what you're saying"
         },
         {
-          "text": "What are you talking about?"
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
         }
       ],
       "description": "Repeat or clarify last statement."
@@ -448,22 +445,13 @@
       "intent": "General_Connect_to_Agent",
       "examples": [
         {
-          "text": "Customer service representative please."
+          "text": "Can I speak with somebody?"
         },
         {
-          "text": "Could you please transfer me to your master?"
+          "text": "Need help from human"
         },
         {
-          "text": "Contact person"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Connect me to a live operator please."
+          "text": "Operator please"
         },
         {
           "text": "Please assist me to get to an agent"
@@ -502,6 +490,27 @@
           "text": "Hi can you transfer me"
         },
         {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
           "text": "Can I connect to an agent?"
         },
         {
@@ -512,12 +521,6 @@
         },
         {
           "text": "I want an agent to help me"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Need help from human"
         },
         {
           "text": "I want to talk to a person"
@@ -544,9 +547,6 @@
           "text": "Can I speak to an advisor?"
         },
         {
-          "text": "Can I speak with somebody?"
-        },
-        {
           "text": "Can I talk to someone?"
         },
         {
@@ -554,9 +554,6 @@
         },
         {
           "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Do not want a robot?"
         },
         {
           "text": "A real agent, please."
@@ -568,7 +565,73 @@
       "intent": "General_Ending",
       "examples": [
         {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
           "text": "Cya later"
+        },
+        {
+          "text": "ttyl"
+        },
+        {
+          "text": "Hi we are heading to lunch"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
         },
         {
           "text": "Im good thank you"
@@ -593,72 +656,6 @@
         },
         {
           "text": "Go off"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Bye now"
-        },
-        {
-          "text": "Bye bye"
-        },
-        {
-          "text": "ttyl"
-        },
-        {
-          "text": "Hi we are heading to lunch"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
         },
         {
           "text": "Stop talking to me"
@@ -694,16 +691,16 @@
       "intent": "vmw_GENERAL_HR",
       "examples": [
         {
-          "text": "What's the number for HR?"
-        },
-        {
-          "text": "Where can I find HR benefits information?"
+          "text": "What's the HR help line number?"
         },
         {
           "text": "Who can I email for HR questions?"
         },
         {
-          "text": "What's the HR help line number?"
+          "text": "Where can I find HR benefits information?"
+        },
+        {
+          "text": "What's the number for HR?"
         }
       ],
       "description": "Generic questions for HR usually found on Source"
@@ -712,7 +709,13 @@
       "intent": "General_Human_or_Bot",
       "examples": [
         {
-          "text": "Are you a human or a bot?"
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
         },
         {
           "text": "Are you human?"
@@ -730,22 +733,16 @@
           "text": "Is this a computer?"
         },
         {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
           "text": "Am I chatting with a human?"
         },
         {
           "text": "Are you a robot?"
         },
         {
-          "text": "How can you prove you are a human?"
+          "text": "Am I talking to a person or am I talking to an AI?"
         },
         {
-          "text": "Are you real?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
+          "text": "Are you a human or a bot?"
         }
       ],
       "description": "Ask if speaking to a human or a bot."
@@ -753,12 +750,6 @@
     {
       "intent": "Bot_Control_Start_Over",
       "examples": [
-        {
-          "text": "Begin over!"
-        },
-        {
-          "text": "We will need to begin again"
-        },
         {
           "text": "I would like to start all over"
         },
@@ -775,10 +766,28 @@
           "text": "Can we please start over?"
         },
         {
+          "text": "Begin over!"
+        },
+        {
           "text": "can I ask you another question"
         },
         {
           "text": "Can I ask another question"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's go back to square one"
         },
         {
           "text": "I explicitly want to start this conversation over again."
@@ -788,6 +797,9 @@
         },
         {
           "text": "Back to the beginning"
+        },
+        {
+          "text": "We will need to begin again"
         },
         {
           "text": "Actually, let's start over"
@@ -806,21 +818,6 @@
         },
         {
           "text": "Let's pick this up from the top again."
-        },
-        {
-          "text": "Let's go back to square one"
-        },
-        {
-          "text": "Let us reopen this again."
-        },
-        {
-          "text": "Restart"
-        },
-        {
-          "text": "Start over"
-        },
-        {
-          "text": "We need a do-over"
         }
       ],
       "description": "Restart bot or current flow."
@@ -829,40 +826,40 @@
       "intent": "Bot_Control_Change_Subject",
       "examples": [
         {
-          "text": "Chat about something else"
-        },
-        {
-          "text": "Let us talk about something else"
-        },
-        {
-          "text": "Talk about something else"
-        },
-        {
-          "text": "Change topic"
+          "text": "Another thing"
         },
         {
           "text": "A different matter"
         },
         {
-          "text": "Another thing"
+          "text": "Change topic"
         },
         {
-          "text": "Can we talk about something else?"
+          "text": "Talk about something else"
         },
         {
-          "text": "Help me with this other question"
+          "text": "Let us talk about something else"
         },
         {
-          "text": "Here is another issue"
+          "text": "Chat about something else"
         },
         {
-          "text": "I have one more question"
+          "text": "Discuss something else"
         },
         {
           "text": "Let us change the topic"
         },
         {
-          "text": "Discuss something else"
+          "text": "I have one more question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Can we talk about something else?"
         }
       ],
       "description": "Change to a different topic."
@@ -871,40 +868,13 @@
       "intent": "General_Greetings",
       "examples": [
         {
-          "text": "How are you today?"
+          "text": "Have you been well?"
         },
         {
-          "text": "How are things going?"
+          "text": "What's new?"
         },
         {
-          "text": "Hi there"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Hey how are you doing"
-        },
-        {
-          "text": "Call me bob"
-        },
-        {
-          "text": "Heya"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How have you been?"
+          "text": "What's up?"
         },
         {
           "text": "Who is this?"
@@ -922,16 +892,13 @@
           "text": "Hi advisor"
         },
         {
-          "text": "Have you been well?"
-        },
-        {
           "text": "Greetings"
         },
         {
-          "text": "Hello Agent"
+          "text": "Good to see you"
         },
         {
-          "text": "Good to see you"
+          "text": "Hello Agent"
         },
         {
           "text": "Hello I am looking for some help here"
@@ -955,16 +922,46 @@
           "text": "Howdy"
         },
         {
-          "text": "What's up?"
+          "text": "Heya"
         },
         {
-          "text": "What's new?"
+          "text": "Call me bob"
         },
         {
-          "text": "Ok take me back"
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
         },
         {
           "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
         }
       ],
       "description": "Greet the bot."
@@ -973,13 +970,7 @@
       "intent": "Bot_Control_Standby",
       "examples": [
         {
-          "text": "Back again soon"
-        },
-        {
-          "text": "Just hold on"
-        },
-        {
-          "text": "Just a sec"
+          "text": "Let me see"
         },
         {
           "text": "I would like to put you on hold"
@@ -1012,6 +1003,9 @@
           "text": "Be back later"
         },
         {
+          "text": "Back again soon"
+        },
+        {
           "text": "Can you give me a moment?"
         },
         {
@@ -1024,13 +1018,16 @@
           "text": "Need a minute here"
         },
         {
-          "text": "Let me see"
-        },
-        {
           "text": "Keep holding"
         },
         {
           "text": "In a moment"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Just a sec"
         }
       ],
       "description": "Indicate a delay in providing input to the bot."
@@ -1066,19 +1063,7 @@
       "intent": "General_irrelevant_request",
       "examples": [
         {
-          "text": "can you help me schedule a meeting"
-        },
-        {
-          "text": "what is trending"
-        },
-        {
-          "text": "who is the president"
-        },
-        {
-          "text": "what is the date"
-        },
-        {
-          "text": "what is today's date"
+          "text": "when is the superbowl"
         },
         {
           "text": "what is the temperature"
@@ -1087,7 +1072,19 @@
           "text": "Don't create a ticket"
         },
         {
-          "text": "when is the superbowl"
+          "text": "what is today's date"
+        },
+        {
+          "text": "what is the date"
+        },
+        {
+          "text": "who is the president"
+        },
+        {
+          "text": "what is trending"
+        },
+        {
+          "text": "can you help me schedule a meeting"
         },
         {
           "text": "what is my phone number"
@@ -1099,19 +1096,19 @@
       "intent": "Bot_Control_Approve_Response",
       "examples": [
         {
-          "text": "I agree"
-        },
-        {
-          "text": "Very well. Let's do it."
-        },
-        {
           "text": "Indeed!"
         },
         {
-          "text": "Yes"
+          "text": "I like that"
         },
         {
-          "text": "You read my mind"
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "For sure!"
         },
         {
           "text": "Yeah, that's it!"
@@ -1132,34 +1129,34 @@
           "text": "That is the proper response."
         },
         {
-          "text": "Affirmative. That's what I'm looking for."
-        },
-        {
-          "text": "All right"
+          "text": "That is what I need"
         },
         {
           "text": "Correct"
         },
         {
-          "text": "I like that"
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Very well. Let's do it."
         },
         {
           "text": "This is alright"
         },
         {
-          "text": "Great"
-        },
-        {
-          "text": "That is what I need"
-        },
-        {
-          "text": "For sure!"
+          "text": "Got it"
         },
         {
           "text": "That's exactly what I want"
-        },
-        {
-          "text": "Got it"
         }
       ],
       "description": "Acknowledge that the response satisfies a question."
@@ -1168,16 +1165,58 @@
       "intent": "General_Negative_Feedback",
       "examples": [
         {
-          "text": "Robots are stupid"
+          "text": "You are very frustrating"
         },
         {
-          "text": "not cool"
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "I hate you"
         },
         {
           "text": "I do not like you"
         },
         {
-          "text": "I hate you"
+          "text": "not cool"
+        },
+        {
+          "text": "just kidding"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "Stupid"
         },
         {
           "text": "Why are you so annoying?"
@@ -1189,49 +1228,7 @@
           "text": "You are having delusions"
         },
         {
-          "text": "Stupid"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "Robots are boring"
-        },
-        {
           "text": "You are on my nerves"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You're really irritating"
-        },
-        {
-          "text": "You're too stupid"
-        },
-        {
-          "text": "I hate this!"
-        },
-        {
-          "text": "just kidding"
-        },
-        {
-          "text": "It is annoying"
-        },
-        {
-          "text": "Quit annoying me"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -1249,7 +1246,7 @@
       "intent": "vmw_GET_TICKET_STATUS",
       "examples": [
         {
-          "text": "I want to see a ticket"
+          "text": "Check status of ticket"
         },
         {
           "text": "Can I check my current tickets?"
@@ -1264,9 +1261,6 @@
           "text": "can you check GSTASK0010001"
         },
         {
-          "text": "Check status of ticket"
-        },
-        {
           "text": "Follow On Task FOL0010001"
         },
         {
@@ -1277,6 +1271,9 @@
         },
         {
           "text": "I want to review a ticket"
+        },
+        {
+          "text": "I want to see a ticket"
         },
         {
           "text": "Is PRB0040002 approved?"
@@ -1354,25 +1351,16 @@
       "intent": "General_Agent_Capabilities",
       "examples": [
         {
-          "text": "What are you able to understand?"
-        },
-        {
-          "text": "I'd like to know what type of questions you can answer for me."
-        },
-        {
-          "text": "I do not know what to ask"
+          "text": "What features are in here?"
         },
         {
           "text": "How do I use you?"
         },
         {
-          "text": "FAQ"
+          "text": "I do not know what to ask"
         },
         {
-          "text": "Help"
-        },
-        {
-          "text": "Please help me"
+          "text": "I'd like to know what type of questions you can answer for me."
         },
         {
           "text": "Hi, what do you do?"
@@ -1393,25 +1381,34 @@
           "text": "What else can you help me with?"
         },
         {
-          "text": "What features are in here?"
+          "text": "FAQ"
         },
         {
           "text": "Can you please give me a list of the types of things you can help me with?"
         },
         {
-          "text": "Can you tell me what services you are able to help me with?"
+          "text": "Please help me"
         },
         {
-          "text": "Do you have a list of things I can talk to you about?"
+          "text": "Help"
         },
         {
-          "text": "Help now"
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "How can you help me?"
         },
         {
           "text": "How can I use you?"
         },
         {
-          "text": "How can you help me?"
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
         },
         {
           "text": "How can you solve my problems?"
@@ -1441,18 +1438,6 @@
       "intent": "vmw_GET_KEYWORD_SEARCH",
       "examples": [
         {
-          "text": "new trainings"
-        },
-        {
-          "text": "Linkedin learning"
-        },
-        {
-          "text": "learning and development"
-        },
-        {
-          "text": "i'd like to search a course"
-        },
-        {
           "text": "I want to see trainings available for product management"
         },
         {
@@ -1462,6 +1447,9 @@
           "text": "where can I watch a training?"
         },
         {
+          "text": "are there any learning courses that I can take?"
+        },
+        {
           "text": "how do I advance my career?"
         },
         {
@@ -1469,9 +1457,6 @@
         },
         {
           "text": "browse trainings"
-        },
-        {
-          "text": "are there any learning courses that I can take?"
         },
         {
           "text": "what trainings are currently trending?"
@@ -1496,6 +1481,18 @@
         },
         {
           "text": "search training by skill"
+        },
+        {
+          "text": "new trainings"
+        },
+        {
+          "text": "Linkedin learning"
+        },
+        {
+          "text": "learning and development"
+        },
+        {
+          "text": "i'd like to search a course"
         }
       ],
       "description": "Search for trainings available in LinkedIn Learning"
@@ -1504,127 +1501,7 @@
       "intent": "vmw_FILE_GENERAL_TICKET",
       "examples": [
         {
-          "text": "Can't get into our main login page"
-        },
-        {
           "text": "IT ticket"
-        },
-        {
-          "text": "There's a strange noise coming from inside the walls."
-        },
-        {
-          "text": "I have a safety concern"
-        },
-        {
-          "text": "The coffee maker doesn't make good coffee."
-        },
-        {
-          "text": "We're out of spoons and forks and in the kitchen but have plenty of knives."
-        },
-        {
-          "text": "I need a doggy door for my cubicle."
-        },
-        {
-          "text": "My dogs need registration to be brought on campus."
-        },
-        {
-          "text": "I want to have my pet with me in the office. What do I need to do?"
-        },
-        {
-          "text": "Water temperature and pressure are wrong for the pipe"
-        },
-        {
-          "text": "Microwave in the kitchen doesn't work"
-        },
-        {
-          "text": "The solar panels above my EV charging station are too dirty to use"
-        },
-        {
-          "text": "I want to sign up my minivan for electrical vehicle charging registration."
-        },
-        {
-          "text": "Broken toilet"
-        },
-        {
-          "text": "I have an HR concern"
-        },
-        {
-          "text": "I have an ethical concern"
-        },
-        {
-          "text": "I wanna file an HR ticket"
-        },
-        {
-          "text": "I have a problem with my coworker"
-        },
-        {
-          "text": "I'm going to adopt a child"
-        },
-        {
-          "text": "Ask a human resources question"
-        },
-        {
-          "text": "I'd like to learn about my benfits"
-        },
-        {
-          "text": "I want to report an HR issue."
-        },
-        {
-          "text": "I want to understand my dental and vision coverage."
-        },
-        {
-          "text": "My family has a qualifying condition to change our health insurance coverage."
-        },
-        {
-          "text": "I'm getting married."
-        },
-        {
-          "text": "I want to figure out my insurance coverage options."
-        },
-        {
-          "text": "I want to arrange for a leave of absence."
-        },
-        {
-          "text": "What are my parental leave options? Maternity, paternity, that sort of thing."
-        },
-        {
-          "text": "What do I need to do to arrange for medical leave after a surgery?"
-        },
-        {
-          "text": "Am I given leave to be a surrogate parent?"
-        },
-        {
-          "text": "I want to file a complaint about diversity and inclusion efforts in this company."
-        },
-        {
-          "text": "I want to arrange a name change in my corporate records."
-        },
-        {
-          "text": "My coworker keeps kicking my chair."
-        },
-        {
-          "text": "I'd like to open a support ticket."
-        },
-        {
-          "text": "I gotta open a support case for my outage."
-        },
-        {
-          "text": "I have an issue with my laptop"
-        },
-        {
-          "text": "I have a technical issue that I cannot resolve"
-        },
-        {
-          "text": "I need tech support"
-        },
-        {
-          "text": "I need technical help."
-        },
-        {
-          "text": "I need to file an IT ticket"
-        },
-        {
-          "text": "I have to open a support case for my cloud problem"
         },
         {
           "text": "information technology issue"
@@ -1643,6 +1520,9 @@
         },
         {
           "text": "Single sign on isn't working"
+        },
+        {
+          "text": "Can't get into our main login page"
         },
         {
           "text": "My smartphone is broken"
@@ -1679,6 +1559,42 @@
         },
         {
           "text": "Screen is borked."
+        },
+        {
+          "text": "There's something wrong with my electrical outlets."
+        },
+        {
+          "text": "I want to convert my desk to a standing desk version."
+        },
+        {
+          "text": "My office chair is borked and I can't use it to go up and down."
+        },
+        {
+          "text": "AC is still too cold."
+        },
+        {
+          "text": "Adjust my ergonomic desk please"
+        },
+        {
+          "text": "Pipes are leaking above my desk."
+        },
+        {
+          "text": "The air conditioning in my office is too cold."
+        },
+        {
+          "text": "My curtains need to be adjusted."
+        },
+        {
+          "text": "Catering for a lunch meeting"
+        },
+        {
+          "text": "Spilled coffee on the carpet and need a cleaning."
+        },
+        {
+          "text": "Flooding in the upstairs bathroom"
+        },
+        {
+          "text": "My internet is down"
         },
         {
           "text": "yes I WANT to create another ticket"
@@ -1774,79 +1690,196 @@
           "text": "i am having trouble with my laptop"
         },
         {
-          "text": "My internet is down"
-        },
-        {
-          "text": "Flooding in the upstairs bathroom"
-        },
-        {
-          "text": "Spilled coffee on the carpet and need a cleaning."
-        },
-        {
-          "text": "Catering for a lunch meeting"
-        },
-        {
-          "text": "My curtains need to be adjusted."
-        },
-        {
-          "text": "The air conditioning in my office is too cold."
-        },
-        {
-          "text": "Pipes are leaking above my desk."
-        },
-        {
           "text": "Install a new television in my office."
         },
         {
-          "text": "Adjust my ergonomic desk please"
+          "text": "Broken toilet"
         },
         {
-          "text": "AC is still too cold."
+          "text": "I want to sign up my minivan for electrical vehicle charging registration."
         },
         {
-          "text": "My office chair is borked and I can't use it to go up and down."
+          "text": "The solar panels above my EV charging station are too dirty to use"
         },
         {
-          "text": "I want to convert my desk to a standing desk version."
+          "text": "Microwave in the kitchen doesn't work"
         },
         {
-          "text": "There's something wrong with my electrical outlets."
+          "text": "Water temperature and pressure are wrong for the pipe"
         },
         {
-          "text": "I'd like to arrange a scheduled escort to my car at night."
+          "text": "I want to have my pet with me in the office. What do I need to do?"
         },
         {
-          "text": "The kitchen toaster oven is burning everything we put in it."
+          "text": "My dogs need registration to be brought on campus."
         },
         {
-          "text": "The light bulb in my desktop lamp went out."
+          "text": "I need a doggy door for my cubicle."
         },
         {
-          "text": "The building is too cold in the summer and too hot in the winter."
+          "text": "We're out of spoons and forks and in the kitchen but have plenty of knives."
+        },
+        {
+          "text": "The coffee maker doesn't make good coffee."
+        },
+        {
+          "text": "I have a safety concern"
+        },
+        {
+          "text": "There's a strange noise coming from inside the walls."
+        },
+        {
+          "text": "I'm hearing a weird noise in the bathroom pipes when I flush"
         },
         {
           "text": "The bulb above my seating area is flickering."
         },
         {
-          "text": "I'm hearing a weird noise in the bathroom pipes when I flush"
+          "text": "The building is too cold in the summer and too hot in the winter."
+        },
+        {
+          "text": "The light bulb in my desktop lamp went out."
+        },
+        {
+          "text": "The kitchen toaster oven is burning everything we put in it."
+        },
+        {
+          "text": "I'd like to arrange a scheduled escort to my car at night."
+        },
+        {
+          "text": "I have an HR concern"
+        },
+        {
+          "text": "I have an ethical concern"
+        },
+        {
+          "text": "I wanna file an HR ticket"
+        },
+        {
+          "text": "I have a problem with my coworker"
+        },
+        {
+          "text": "I'm going to adopt a child"
+        },
+        {
+          "text": "Ask a human resources question"
+        },
+        {
+          "text": "I'd like to learn about my benfits"
+        },
+        {
+          "text": "I want to report an HR issue."
+        },
+        {
+          "text": "I want to understand my dental and vision coverage."
+        },
+        {
+          "text": "My family has a qualifying condition to change our health insurance coverage."
+        },
+        {
+          "text": "I'm getting married."
+        },
+        {
+          "text": "I want to figure out my insurance coverage options."
+        },
+        {
+          "text": "I want to arrange for a leave of absence."
+        },
+        {
+          "text": "What are my parental leave options? Maternity, paternity, that sort of thing."
+        },
+        {
+          "text": "What do I need to do to arrange for medical leave after a surgery?"
+        },
+        {
+          "text": "Am I given leave to be a surrogate parent?"
+        },
+        {
+          "text": "I want to file a complaint about diversity and inclusion efforts in this company."
+        },
+        {
+          "text": "I want to arrange a name change in my corporate records."
+        },
+        {
+          "text": "My coworker keeps kicking my chair."
+        },
+        {
+          "text": "I'd like to open a support ticket."
+        },
+        {
+          "text": "I gotta open a support case for my outage."
+        },
+        {
+          "text": "I have an issue with my laptop"
+        },
+        {
+          "text": "I have a technical issue that I cannot resolve"
+        },
+        {
+          "text": "I need tech support"
+        },
+        {
+          "text": "I need technical help."
+        },
+        {
+          "text": "I need to file an IT ticket"
+        },
+        {
+          "text": "I have to open a support case for my cloud problem"
         }
       ],
       "description": "File a support ticket without specific indications to its purpose"
     },
     {
+      "intent": "vmw_TROUBLE_WIFI",
+      "examples": [
+        {
+          "text": "wifi issues"
+        },
+        {
+          "text": "what's wrong with the wifi"
+        },
+        {
+          "text": "my wifi is down"
+        },
+        {
+          "text": "issues with wifi"
+        },
+        {
+          "text": "is there a new wifi profile available?"
+        },
+        {
+          "text": "I have an issue with wifi"
+        },
+        {
+          "text": "I cant connect to wifi"
+        },
+        {
+          "text": "I cannot connect to wifi"
+        },
+        {
+          "text": "I am having issues connecting to wifi on this device"
+        },
+        {
+          "text": "crappy wifi"
+        },
+        {
+          "text": "cannot connect to internet"
+        },
+        {
+          "text": "bad wifi"
+        },
+        {
+          "text": "wifi problems"
+        }
+      ],
+      "description": "Issues with wifi (can use other flows to help use troubleshoot)"
+    },
+    {
       "intent": "Bot_Control_Unsure",
       "examples": [
         {
-          "text": "I got the best laptop in the world"
-        },
-        {
-          "text": "I m not yet convinced"
-        },
-        {
-          "text": "I haven't got a clue"
-        },
-        {
-          "text": "I m not sure what will make you happy"
+          "text": "I don t know what you want"
         },
         {
           "text": "I m not certain I get what you re saying"
@@ -1864,9 +1897,6 @@
           "text": "I have no idea, actually"
         },
         {
-          "text": "I don t know what you want"
-        },
-        {
           "text": "I don t know what you need"
         },
         {
@@ -1877,6 +1907,18 @@
         },
         {
           "text": "my laptop is very good"
+        },
+        {
+          "text": "I got the best laptop in the world"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not yet convinced"
         }
       ],
       "description": "Indicate no definite answer to a question."
@@ -1885,10 +1927,58 @@
       "intent": "Bot_Control_Reject_Response",
       "examples": [
         {
-          "text": "You're misunderstanding me"
+          "text": ":("
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "It is not what I was looking for"
         },
         {
           "text": "Bad response"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
         },
         {
           "text": "That was wrong, try again"
@@ -1904,54 +1994,6 @@
         },
         {
           "text": "Not the right response"
-        },
-        {
-          "text": ":("
-        },
-        {
-          "text": "No"
-        },
-        {
-          "text": "No I'm fine thanks"
-        },
-        {
-          "text": "I do not think it is the answer?"
-        },
-        {
-          "text": "I wasn't looking for that"
-        },
-        {
-          "text": "I don't want that"
-        },
-        {
-          "text": "It is not what I want"
-        },
-        {
-          "text": "You didn't understand me"
-        },
-        {
-          "text": "You did not understand what I said"
-        },
-        {
-          "text": "You did not understand what I asked"
-        },
-        {
-          "text": "Wrong response"
-        },
-        {
-          "text": "I don't need that"
-        },
-        {
-          "text": "nope"
-        },
-        {
-          "text": "That answer is incorrect"
-        },
-        {
-          "text": "It is not what I was looking for"
-        },
-        {
-          "text": "I disagree"
         }
       ],
       "description": "Indicate the bot's response does not address a question."
@@ -1960,55 +2002,55 @@
       "intent": "vmw_ORDER_NEW_DEVICE",
       "examples": [
         {
+          "text": "Order a tablet"
+        },
+        {
           "text": "Order a new laptop"
-        },
-        {
-          "text": "I'd like to order a new device"
-        },
-        {
-          "text": "Get a new computer, tablet, or smart phone from my employer."
         },
         {
           "text": "I would like to submit a request to issue wireless mouse and keyboard."
         },
         {
-          "text": "Order a tablet"
+          "text": "Get a new computer, tablet, or smart phone from my employer."
         },
         {
-          "text": "Order a phone"
+          "text": "I'd like to order a new device"
         },
         {
-          "text": "Order a new desktop"
-        },
-        {
-          "text": "I would like a new device"
-        },
-        {
-          "text": "New mouse"
-        },
-        {
-          "text": "Order a device"
-        },
-        {
-          "text": "New keyboard"
-        },
-        {
-          "text": "Mouse"
-        },
-        {
-          "text": "Monitor"
-        },
-        {
-          "text": "Keyboard"
-        },
-        {
-          "text": "My laptop is getting old"
+          "text": "Device"
         },
         {
           "text": "Where can I get a new device?"
         },
         {
-          "text": "Device"
+          "text": "My laptop is getting old"
+        },
+        {
+          "text": "Keyboard"
+        },
+        {
+          "text": "Monitor"
+        },
+        {
+          "text": "Mouse"
+        },
+        {
+          "text": "New keyboard"
+        },
+        {
+          "text": "Order a device"
+        },
+        {
+          "text": "New mouse"
+        },
+        {
+          "text": "I would like a new device"
+        },
+        {
+          "text": "Order a new desktop"
+        },
+        {
+          "text": "Order a phone"
         }
       ],
       "description": "Order a new device"
@@ -2017,31 +2059,31 @@
       "intent": "General_About_You",
       "examples": [
         {
-          "text": "Why are you here?"
+          "text": "How can I configure you?"
         },
         {
-          "text": "What's your name?"
+          "text": "Tell me about your life"
         },
         {
-          "text": "What should I know about you?"
+          "text": "Let us talk about you"
         },
         {
-          "text": "What languages do you speak?"
+          "text": "Introduce your self"
         },
         {
-          "text": "user guide"
+          "text": "How old are you?"
         },
         {
-          "text": "what is your user guide"
+          "text": "How do you function?"
         },
         {
-          "text": "About you"
+          "text": "Tell me something about yourself"
         },
         {
-          "text": "tell me how you work"
+          "text": "Do you know who you are?"
         },
         {
-          "text": "hub assistant"
+          "text": "?"
         },
         {
           "text": "can you walk me through the system?"
@@ -2053,52 +2095,52 @@
           "text": "how do i talk with you"
         },
         {
-          "text": "?"
+          "text": "user guide"
         },
         {
-          "text": "Do you know who you are?"
+          "text": "tell me how you work"
         },
         {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "How do you function?"
-        },
-        {
-          "text": "How old are you?"
-        },
-        {
-          "text": "Introduce your self"
+          "text": "what is your user guide"
         },
         {
           "text": "Learn More "
         },
         {
-          "text": "Let us talk about you"
+          "text": "What should I know about you?"
         },
         {
-          "text": "Tell me about your life"
+          "text": "What's your name?"
         },
         {
-          "text": "How can I configure you?"
+          "text": "Why are you here?"
         },
         {
-          "text": "Can I use another language?"
-        },
-        {
-          "text": "Describe your self"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where were you born?"
+          "text": "Do you have a name?"
         },
         {
           "text": "Where are you from?"
         },
         {
-          "text": "Do you have a name?"
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "hub assistant"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
         }
       ],
       "description": "Request generic personal attributes."
@@ -2747,6 +2789,66 @@
       "parent": "node_6_1563205422552",
       "variable": "$mobileFlowsEnabled",
       "dialog_node": "slot_4_1571776048771"
+    },
+    {
+      "type": "standard",
+      "title": "Cannot connect to wifi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear you are having wifi issues. This will sometimes happen if new wifi profiles are available for your managed device but don't get automatically synced. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like me to sync your device?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Yes, sync device",
+                "value": {
+                  "input": {
+                    "text": "Yes, sync device"
+                  }
+                }
+              },
+              {
+                "label": "File a support ticket instead",
+                "value": {
+                  "input": {
+                    "text": "File a support ticket instead"
+                  }
+                }
+              },
+              {
+                "label": "No thanks",
+                "value": {
+                  "input": {
+                    "text": "No thanks"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1584033624195",
+      "conditions": "#vmw_TROUBLE_WIFI",
+      "dialog_node": "node_3_1588010679090",
+      "previous_sibling": "node_5_1584033663248"
     },
     {
       "type": "standard",
